@@ -1,6 +1,6 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "La Esperanza de los Tuxtlas"
+subtitle: Proyecto de rescate de la naturaleza, cultura y tradición
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
