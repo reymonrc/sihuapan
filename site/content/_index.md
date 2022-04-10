@@ -1,6 +1,6 @@
 ---
 title: "La Esperanza de los Tuxtlas"
-subtitle: Proyecto de rescate de naturaleza, cocina y tradición del cultivo de tabaco
+subtitle: Rescate de naturaleza, cocina y tradición del cultivo de tabaco
 image: /img/home-jumbotron.jpg
 blurb:
     heading: ¿Quienes somos?
