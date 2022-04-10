@@ -1,7 +1,7 @@
 ---
 title: "La Esperanza de los Tuxtlas"
 subtitle: Rescate de naturaleza, cocina y tradición
-image: /img/home-jumbotron.jpg
+image: /img/home-jumbotron.jpeg
 blurb:
     heading: ¿Quiénes somos?
     text: "Un grupo de profesionistas interesados en el rescate del habitat de la región de los Tuxtlas, con un enfoque social y cultural"
