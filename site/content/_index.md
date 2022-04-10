@@ -3,7 +3,7 @@ title: "Sihuapan"
 subtitle: La Esperanza de los Tuxtlas
 image: /img/home-jumbotron.jpeg
 blurb:
-    heading: ¿Qué es _silet_?
+    heading: ¿Qué es SILET?
     text: "Un grupo de profesionistas interesados en el rescate del habitat, cocina y tradiciones de la región de los Tuxtlas, con un enfoque social, cultural y científico."
 intro:
     heading: "Ofrecemos"
@@ -15,7 +15,7 @@ products:
       text: "Ganadería vacunos y bovinos"
     - image: img/stretching-exercises.png
       text: "Espacios deportivos, con cancha de futbol y pista"
-    - image: /img/stretching-exercises.png
+    - image: /img/stethoscope.png
       text: "Clínica médica para atención inmediata"
 values:
     heading: Nuestros valores
