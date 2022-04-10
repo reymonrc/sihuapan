@@ -1,14 +1,14 @@
 ---
 title: "La Esperanza de los Tuxtlas"
-subtitle: Rescate de naturaleza, cocina y tradición en elaboración de puros
+subtitle: Rescate de naturaleza, cocina y tradición
 image: /img/home-jumbotron.jpg
 blurb:
     heading: ¿Quiénes somos?
     text: "Un grupo de profesionistas interesados en el rescate del habitat de la región de los Tuxtlas, con un enfoque social y cultural"
-introducción:
+intro:
     heading: "Ofrecemos"
     text: "Asociarnos con individuos e instituciones enfocados en el rescate de la naturaleza y tradiciones"
-proyectos:
+products:
     - image: img/illustrations-coffee.svg
       text: "Apicultura"
     - image: /img/illustrations-coffee-gear.svg
@@ -17,7 +17,7 @@ proyectos:
       text: "Espacios deportivos"
     - image: /img/illustrations-coffee-gear.svg
       text: "Clínica"
-valores:
+values:
     heading: Nuestros valores
     text: Buscamos un desarrollo sustentable con impacto social.
 ---
