@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Sihuapan"
 subtitle: La Esperanza de los Tuxtlas
 image: /img/home-jumbotron.jpeg
 blurb:
