@@ -17,6 +17,8 @@ products:
       text: "Espacios deportivos, con cancha de futbol y pista"
     - image: /img/stethoscope.png
       text: "Clínica médica para atención inmediata"
+    - image: /img/tabacco.svg
+      text: "Procesamiento del tabaco"
 values:
     heading: Nuestros valores
     text: Buscamos un desarrollo sustentable, en convivencia con la naturaleza y con impacto social.
