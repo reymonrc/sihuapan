@@ -19,7 +19,7 @@ products:
       text: "Espacios deportivos, con cancha de futbol y pista"
     - image: /img/stethoscope.png
       text: "Clínica médica para atención inmediata"
-    - image: /img/tabacco.svg
+    - image: /img/tabacco.png
       text: "Museo del tabaco"
 values:
     heading: Nuestros valores
