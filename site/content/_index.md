@@ -3,18 +3,22 @@ title: "La Esperanza de los Tuxtlas"
 subtitle: Rescate de naturaleza, cocina y tradición en elaboración de puros
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: ¿Quienes somos?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: ¿Quiénes somos?
+    text: "Un grupo de profesionistas interesados en el rescate del habitat de la región de los Tuxtlas, con un enfoque social y cultural"
 introducción:
     heading: "Ofrecemos"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    text: "Asociarnos con individuos e instituciones enfocados en el rescate de la naturaleza y tradiciones"
 proyectos:
     - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
+      text: "Apicultura"
     - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+      text: "Ganadería"
+    - image: img/illustrations-coffee.svg
+      text: "Espacios deportivos"
+    - image: /img/illustrations-coffee-gear.svg
+      text: "Clínica"
 valores:
     heading: Nuestros valores
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    text: Buscamos un desarrollo sustentable con impacto social.
 ---
 
