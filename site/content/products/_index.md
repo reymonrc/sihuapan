@@ -4,10 +4,7 @@ type: products
 image: /img/products-jumbotron.jpg
 heading: Ofrecemos
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Un entorno natural para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
 intro:
   blurbs:
     - image: /img/illustrations-coffee.svg
