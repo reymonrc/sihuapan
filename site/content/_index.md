@@ -23,6 +23,6 @@ products:
       text: "Museo del tabaco"
 values:
     heading: Nuestros valores
-    text: Buscamos un desarrollo sustentable, en convivencia con la naturaleza y con impacto social.
+    text: ¨Procuramos un desarrollo sustentable, en convivencia con la naturaleza y con impacto social.
 ---
 
