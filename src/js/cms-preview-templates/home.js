@@ -35,13 +35,6 @@ export default class PostPreview extends React.Component {
               </div>)}
             </div>
 
-            <div className="flex-ns mhn2-ns mb3">
-              {(entry.getIn(["data", "products2"]) || []).map((product, i) => <div className="ph2-ns w-50-ns" key={i}>
-                <img src={getAsset(product.get("image"))} alt="" className="center db mb3" style={{width: "240px"}}/>
-                <p>{product.get("text")}</p>
-              </div>)}
-            </div>
-
             <div className="tc">
               <a href="#" className="btn raise">Ver todos los proyectos</a>
             </div>
