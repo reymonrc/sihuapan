@@ -17,6 +17,7 @@ products:
       text: "Divulgación de la ciencia"
     - image: /img/cow.png
       text: "Ganadería"
+products2:
     - image: img/stretching-exercises.png
       text: "Espacios deportivos"
     - image: /img/stethoscope.png
