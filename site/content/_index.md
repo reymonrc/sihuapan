@@ -24,6 +24,8 @@ products2:
       text: "Clínica médica"
     - image: /img/tobacco.svg
       text: "Museo del tabaco"
+    - image: /img/forest.png
+      text: "Agricultura"
 values:
     heading: Nuestros valores
     text: Procuramos un desarrollo sustentable, en convivencia con la naturaleza y un impacto social.
