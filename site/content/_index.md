@@ -14,12 +14,12 @@ products:
     - image: /img/storyboard.png
       text: "Divulgación de la ciencia"
     - image: /img/cow.png
-      text: "Ganadería vacunos y bovinos"
+      text: "Ganadería"
     - image: img/stretching-exercises.png
-      text: "Espacios deportivos, con cancha de futbol y pista"
+      text: "Espacios deportivos"
     - image: /img/stethoscope.png
-      text: "Clínica médica para atención inmediata"
-    - image: /img/tabacco.png
+      text: "Clínica médica"
+    - image: /img/tobacco.svg
       text: "Museo del tabaco"
 values:
     heading: Nuestros valores
