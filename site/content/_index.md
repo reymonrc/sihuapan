@@ -1,5 +1,5 @@
 ---
-title: "Sihuapan"
+title: "SIhuapan"
 subtitle: La Esperanza de los Tuxtlas
 image: /img/home-jumbotron.jpeg
 blurb:
@@ -11,6 +11,8 @@ intro:
 products:
     - image: /img/bee.png
       text: "Apicultura"
+    - image: /img/samosa.png
+      text: "Cocina regional"
     - image: /img/storyboard.png
       text: "Divulgación de la ciencia"
     - image: /img/cow.png
@@ -23,6 +25,6 @@ products:
       text: "Museo del tabaco"
 values:
     heading: Nuestros valores
-    text: ¨Procuramos un desarrollo sustentable, en convivencia con la naturaleza y con impacto social.
+    text: ¨Procuramos un desarrollo sustentable, en convivencia con la naturaleza y un impacto social.
 ---
 
