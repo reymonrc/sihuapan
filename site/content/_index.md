@@ -28,6 +28,6 @@ products2:
       text: "Agricultura"
 values:
     heading: Nuestros valores
-    text: Procuramos un desarrollo sustentable, en convivencia con la naturaleza y un impacto social.
+    text: Procuramos un desarrollo sustentable, con respeto y en convivencia con la naturaleza, así como un impacto social.
 ---
 
