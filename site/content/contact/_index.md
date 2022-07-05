@@ -10,6 +10,7 @@ contact_entries:
 
 <iframe src=”https://www.google.com/maps/d/u/0/edit?mid=15N-svtVQEqARD6SgTHbSo9NUFiPH_SGB&usp=sharing” width=”600″ height=”450″ frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
 
+{{< google-maps-location height="300" location="Sihuapan Veracruz" >}}
 
 Estamos en toda la disposición de escuchar nuevas propuestas y conversar sobre nuestros proyectos
 
