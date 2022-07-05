@@ -1,7 +1,7 @@
 ---
 title: Proyectos
 type: products
-image: /img/LibeHola.jpg
+image: /img/LibelHola.jpg
 heading: Soñamos
 description: >-
   Contamos con entorno natural para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
@@ -17,6 +17,8 @@ intro:
       text: >
         Cultivo de mango, aguacate, guanábana, cítricos, variedad de tipos de plátano asi como el rescate de chagalapolin, ojoche, ...; se considera parte integral de SILET.
     - image: /img/Tabaco1.jpg
+      text: >
+        Siembra de tabaco es una actividad importante en la región
   heading: Realidades
   description: >
     Silet es un desarrollo integral, diversificado donde contamos con varios proyectos, incluyendo
