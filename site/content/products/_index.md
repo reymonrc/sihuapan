@@ -1,7 +1,7 @@
 ---
 title: Proyectos
 type: products
-image: /img/LibelHola.jpg
+image: /img/products-jumbotron.jpg
 heading: Soñamos
 description: >-
   Contamos con entorno natural para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
@@ -44,35 +44,29 @@ testimonials:
     quote: >-
       Silet is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+full_image: /img/Cacao.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Venta de miel
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    Procedimientos tradicionales nos permiten ofrecer miel virgen.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Perfecto para los amantes de la miel, el regalo ideal.
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-nsoving couples and bigger crowds'
+        - 3 tarros de miel
+        - Dispensador
+        - Canasta
+      plan: Lover
+      price: '500'
+    - description: Solo una probada
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
+        - Tarro de 1/4
+      plan: Peque
+      price: '35'
+    - description: Recarga
+      items:
+        - Tarro de 1 litro
       plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
+      price: '120'
 ---
 
 
