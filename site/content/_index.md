@@ -11,8 +11,6 @@ intro:
 products:
     - image: /img/bee.png
       text: "Apicultura"
-    - image: /img/samosa.png
-      text: "Cocina regional"
     - image: /img/storyboard.png
       text: "Divulgación de la ciencia"
     - image: /img/cow.png
@@ -26,6 +24,8 @@ products2:
 #      text: "Museo del tabaco"
     - image: /img/forest.png
       text: "Agricultura"
+    - image: /img/samosa.png
+      text: "Cocina regional"
 values:
     heading: Nuestros valores
     text: Procuramos un desarrollo sustentable, con respeto y en convivencia con la naturaleza, así como un impacto social.
