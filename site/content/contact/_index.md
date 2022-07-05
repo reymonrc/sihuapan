@@ -1,19 +1,18 @@
 ---
-title: "Contact"
+title: "Contacto"
 logo: "/img/logo.svg"
 contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: Ubicación
+    text: "Carretera federal 180, Veracruz - Minatitlán km 139, Sihuapan 95810, VERACRUZ"
+  - heading: Disponibilidad
+    text: "Lunes – Viernes: 6AM – 3PM"
+  - heading: Mapa
+    text: <iframe src=”https://www.google.com/maps/d/u/0/edit?mid=15N-svtVQEqARD6SgTHbSo9NUFiPH_SGB&usp=sharing” width=”600″ height=”450″ frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
 ---
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
+Estamos en toda la disposición de escuchar nuevas propuestas y conversar sobre nuestros proyectos
 
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
+<h3 class="f4 b lh-title mb2">¿Podríamos hacer un ...?</h3>
 
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+Podemos ponernos en contacto si nos envías un mensaje usando la forma de abajo, no olvides dejar tus datos.
+
