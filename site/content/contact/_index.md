@@ -6,9 +6,10 @@ contact_entries:
     text: "Carretera federal 180, Veracruz - Minatitlán km 139, Sihuapan 95810, VERACRUZ"
   - heading: Disponibilidad
     text: "Lunes – Viernes: 6AM – 3PM"
-  - heading: Mapa
-    text: <iframe src=”https://www.google.com/maps/d/u/0/edit?mid=15N-svtVQEqARD6SgTHbSo9NUFiPH_SGB&usp=sharing” width=”600″ height=”450″ frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
 ---
+
+<iframe src=”https://www.google.com/maps/d/u/0/edit?mid=15N-svtVQEqARD6SgTHbSo9NUFiPH_SGB&usp=sharing” width=”600″ height=”450″ frameborder=”0″ style=”border:0″ allowfullscreen></iframe>
+
 
 Estamos en toda la disposición de escuchar nuevas propuestas y conversar sobre nuestros proyectos
 
