@@ -1,7 +1,7 @@
 ---
 title: Proyectos
 type: products
-image: /img/products-jumbotron.jpg
+image: /img/LibeHola.jpg
 heading: Soñamos
 description: >-
   Contamos con entorno natural para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
@@ -13,9 +13,10 @@ intro:
     - image: /img/becerrita.jpeg
       text: >
         Ganado vacuno y la elaboración de lácteos ha sido parte no solo de la tradición familiar sino de la región.
-    - image: /img/illustrations-meeting-space.svg
+    - image: /Finca/seis.jpg
       text: >
         Cultivo de mango, aguacate, guanábana, cítricos, variedad de tipos de plátano asi como el rescate de chagalapolin, ojoche, ...; se considera parte integral de SILET.
+    - image: /img/Tabaco1.jpg
   heading: Realidades
   description: >
     Silet es un desarrollo integral, diversificado donde contamos con varios proyectos, incluyendo
