@@ -2,41 +2,24 @@
 title: "Values"
 image: /img/LibelHola.jpg
 values:
-  - heading: "Rescate y respeto a la biodiversidad"
+  - heading: "Uso mínimo de químicos"
     text: >
       Control del balance natural, con el uso de bioinsecticidas fortificantes.
-      Uso de material reciclable o biodegradable para un impacto mínimo en la contaminación por plásticos del ambiente.
-    imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Single origin"
+    imageUrl: "/img/Lag-verde.jpg"
+  - heading: "Huella contaminante"
     text: >
-      Single-origin coffee is coffee grown within a single known
-      geographic origin. Sometimes, this is a single farm or a
-      specific collection of beans from a single country. The name of
-      the coffee is then usually the place it was grown to whatever
-      degree available.
-    imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Sustainable farming"
+      Uso de material reciclable o biodegradable para un impacto mínimo en la contaminación por plásticos del ambiente. 
+    imageUrl: "/img/Lag-escala.jpg"
+  - heading: "Auto sustentabilidad"
     text: >
-      Sustainable agriculture is farming in sustainable ways based on
-      an understanding of ecosystem services, the study of
-      relationships between organisms and their environment. What
-      grows where and how it is grown are a matter of choice and
-      careful consideration for nature and communities.
-    imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Direct sourcing"
+      Se buscan actividades encaminadas a la auto sustentabilidad del proyecto.
+    imageUrl: "/img/Soltadero-amanecer.jpg"
+  - heading: "Impacto social"
     text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
-    imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "Reinvest profits"
+      Prácticas en los negocios y relaciones sociales que permitan ser un ejemplo para la comunidad.
+    imageUrl: "/img/Lag-corre.jpg"
+  - heading: "Reinversión"
     text: >
-      We want to truly empower the communities that bring amazing
-      coffee to you. That’s why we reinvest 20% of our profits into
-      farms, local businesses and schools everywhere our coffee is
-      grown. You can see the communities grow and learn more about
-      coffee farming on our blog.
+      Sin fines de lucro o negocio se busca que las ganancias se ocupen en mejoras y desarrollo del proyecto mismo.
     imageUrl: "/img/about-reinvest-profits.jpg"
 ---
