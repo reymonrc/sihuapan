@@ -1,7 +1,7 @@
 ---
 title: Proyectos
 type: products
-image: /img/products-jumbotron.jpg
+image: /img/Casa-atras.jpg
 heading: Soñamos
 description: >-
   Contamos con entorno natural para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
@@ -16,7 +16,7 @@ intro:
     - image: /Finca/seis.jpg
       text: >
         Cultivo de mango, aguacate, guanábana, cítricos, variedad de tipos de plátano asi como el rescate de chagalapolin, ojoche, ...; se considera parte integral de SILET.
-    - image: /img/Tabaco1.jpg
+    - image: /img/Tabaco2.jpg
       text: >
         Siembra de tabaco es una actividad importante en la región
   heading: Realidades
@@ -36,14 +36,12 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: ERCM
     quote: >-
-      The first time I tried Silet’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      La primera vez que conocí este lugar pensé que nunca regresaría, sin embargo la vida me trajo de regreso y aquí logre realizar mis sueños de formar una familia.
+  - author: MECRC
     quote: >-
-      Silet is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      Aquí pasé los momentos más felices de mi vida.
 full_image: /img/Cacao.jpg
 pricing:
   heading: Venta de miel
@@ -52,21 +50,21 @@ pricing:
   plans:
     - description: Perfecto para los amantes de la miel, el regalo ideal.
       items:
-        - 3 tarros de miel
+        - 3 tarros de miel (1/2)
         - Dispensador
         - Canasta
       plan: Lover
-      price: '500'
+      price: '400'
     - description: Solo una probada
       items:
         - Tarro de 1/4
       plan: Peque
-      price: '35'
+      price: '45'
     - description: Recarga
       items:
         - Tarro de 1 litro
       plan: Big
-      price: '120'
+      price: '160'
 ---
 
 

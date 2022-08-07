@@ -8,4 +8,6 @@ image: /img/mucilago.jpg
 
 Estamos ensayando el método de fermentación del mucílago.
 
-Se trata de mantener una temperatura elevada que permita la fermentación y secado.
+Se trata de mantener una temperatura elevada que permita la fermentación.
+
+Posterior se necesita lograr un secado al sol o tostando ligeramente las semillas.

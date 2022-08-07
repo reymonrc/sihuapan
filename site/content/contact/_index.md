@@ -12,7 +12,7 @@ contact_entries:
 
 {{< google-maps-view height="300" location="SILET" >}}
 
-Estamos en toda la disposición de escuchar nuevas propuestas y conversar sobre nuestros proyectos
+Estamos en toda la disposición de escuchar nuevas propuestas y conversar sobre nuestros proyectos.
 
 <h3 class="f4 b lh-title mb2">¿Podríamos hacer un ...?</h3>
 
