@@ -1,5 +1,5 @@
 ---
-title: "Values"
+title: "Valores"
 image: /img/LibelHola.jpg
 values:
   - heading: "Uso mínimo de químicos"
@@ -17,9 +17,9 @@ values:
   - heading: "Impacto social"
     text: >
       Prácticas en los negocios y relaciones sociales que permitan ser un ejemplo para la comunidad.
-    imageUrl: "/img/Lag-corre.jpg"
+    imageUrl: "/img/Leopardo1.jpg"
   - heading: "Reinversión"
     text: >
       Sin fines de lucro o negocio se busca que las ganancias se ocupen en mejoras y desarrollo del proyecto mismo.
-    imageUrl: "/img/about-reinvest-profits.jpg"
+    imageUrl: "/img/Lag-corre.jpg"
 ---
