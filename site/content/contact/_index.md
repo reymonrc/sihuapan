@@ -1,6 +1,6 @@
 ---
 title: "Contacto"
-logo: "/img/mural.jpg"
+logo: "/img/Mural-self.jpg"
 contact_entries:
   - heading: Ubicación
     text: "Carretera federal 180, Veracruz - Minatitlán km 139, Sihuapan 95810, VERACRUZ"
