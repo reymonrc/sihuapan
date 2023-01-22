@@ -9,7 +9,7 @@ intro:
   blurbs:
     - image: /img/rio.jpg
       text: >
-        La divulgación de la ciencia se basa en un proyecto de la facultad de ciencias de la UNAM junto con el Tecnológico superior de San Andrés Tuxtla, consiste en un experimento de dinámica de fluidos que muestra el principio de Bernoulli.
+        La divulgación de la ciencia se basa en un proyecto entre la facultad de ciencias de la UNAM junto con el istema regional de telesecundarias y consiste en motivar a los alumnos sobre la importancia y aplicabilidad de las ciencias básicas mediante actividades con experimentos y problemas prácticos.
     - image: /img/becerrita.jpeg
       text: >
         Ganado vacuno y la elaboración de lácteos ha sido parte no solo de la tradición familiar sino de la región.
