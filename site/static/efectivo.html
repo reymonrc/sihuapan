@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Efectivo riego</title>
+    
+    <!-- add jsPdf to enable PDF export -->
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+
+    <!-- add chart.js to enable charting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+
+    <!-- el mero chiste de https://github.com/admirhodzic/FathGrid -->
+    <script src="FathGrid.js" ></script>
+
+    <!-- fix sort indicator position on right-align columns-->
+    <style>
+      .fathgrid-wrapper .fathgrid th.sorted.text-right::after,
+      .fathgrid-wrapper .fathgrid th.sorted-desc.text-right::after {left:0.4em;right:auto;}
+    </style>
+  </head>
+  <body>
+      <div class="container-fluid">
+    <h1>Efectivo</h1>
+
+    <div style="display: flex;">
+      <div style="flex-grow: 1">Registros por página: <select id="selSize" onchange="t1.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+      <div style="flex-grow: 1">
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Búsqueda</span>
+          </div>
+          <input onchange="t1.search(this.value)" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>        
+      </div>
+    </div>
+
+    
+    <table  id="table1" class="table table-hover table-bordered ">
+      <thead class="thead-light"></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  
+  <script src="data/efectivo.js"></script>
+    <script>
+
+    var t1=FathGrid("table1",{
+      size:10,
+      editable:true,
+      filterable:true,
+      sortable:true,
+      showFooter:true,
+      onChange:function(item,col,old,value){console.log("onChange:",item.id,col,old,value);return value==''?false:true;},
+      rowClass:function(dr,idx){return dr.id==3?'table-info':(dr.id==9?'table-warning':'')},
+      inputClass:'form-control',
+      selectColumns:true,
+      columns:[
+        {
+          name:'fecha',header:'Fecha',
+          type:'date'
+        },
+        {type: 'text',editable: true,name:'concepto',header: 'Concepto'},
+        {type:'text',editable:true,
+          name:'salida',header:'Salida',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {type:'text',editable:true,
+          name:'entrada',header:'Entrada',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {name:'efectivo',type:'checkbox',header:'Efectivo',visible:false,filter:[{value:false,name:'No'},{value:true,name:'Sí'}]}, //invisible grouping column
+      ],
+      data:datos,
+      showGraph: false,
+    });
+    
+    window.addEventListener('beforeunload',function(){ localStorage.setItem("t1_config",t1.saveConfig())});
+    var objConfig=localStorage.getItem("t1_config");
+    if(objConfig!==null) t1.loadConfig(objConfig);
+    document.querySelector("#selSize").value=t1.getPageSize();
+
+    </script>
+  </body>
+</html>
+
+
