@@ -29,5 +29,5 @@ var datos=[{ "fecha": "2023-05-06", "salida": "1000", "concepto": "Bambú para c
 { "fecha": "2023-06-10", "salida": "1650", "concepto": "Barro y piedra", "efectivo": true },
 { "fecha": "2023-06-10", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true },
 { "fecha": "2023-06-25", "salida": "1000", "concepto": "Prestamo Ramón", "efectivo": false },
-{ "fecha": "2023-07-17", "entrada": "5500", "concepto": "Transferencia a Yair del burro", "efectivo": false },
+{ "fecha": "2023-07-17", "salida": "", "entrada": "5500", "concepto": "Transferencia a Yair del burro", "efectivo": false },
            ]
