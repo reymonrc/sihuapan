@@ -27,7 +27,7 @@ var datos=[{ "fecha": "2023-07-17", "entrada": "5500", "concepto": "Transferenci
 { "fecha": "2023-05-28", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true },
 { "fecha": "2023-05-29", "salida": "60", "concepto": "Clavos para bambú", "efectivo": true },
 { "fecha": "2023-05-29", "salida": "738", "concepto": "18m tela gallinero", "efectivo": true },
-{ "fecha": "2023-05-29", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true }
-{ "fecha": "2023-06-10", "salida": "1650", "concepto": "Barro y piedra", "efectivo": true }
+{ "fecha": "2023-05-29", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true },
+{ "fecha": "2023-06-10", "salida": "1650", "concepto": "Barro y piedra", "efectivo": true },
 { "fecha": "2023-06-10", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true }
            }]
