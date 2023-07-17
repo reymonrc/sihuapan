@@ -1,6 +1,4 @@
-var datos=[{ "fecha": "2023-07-17", "entrada": "5500", "concepto": "Transferencia a Yair del burro", "efectivo": false },
-{ "fecha": "2023-06-25", "salida": "1000", "concepto": "Prestamo Ramón", "efectivo": false },
-{ "fecha": "2023-05-06", "salida": "1000", "concepto": "Bambú para casita", "efectivo": true },
+var datos=[{ "fecha": "2023-05-06", "salida": "1000", "concepto": "Bambú para casita", "efectivo": true },
 { "fecha": "2023-05-09", "salida": "500", "concepto": "Bambús cortineros y cadena repisa", "efectivo": true },
 { "fecha": "2023-05-10", "salida": "349", "concepto": "Pistola para pintar", "efectivo": true },
 { "fecha": "2023-05-10", "salida": "100", "concepto": "Focos", "efectivo": true },
@@ -29,5 +27,7 @@ var datos=[{ "fecha": "2023-07-17", "entrada": "5500", "concepto": "Transferenci
 { "fecha": "2023-05-29", "salida": "738", "concepto": "18m tela gallinero", "efectivo": true },
 { "fecha": "2023-05-29", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true },
 { "fecha": "2023-06-10", "salida": "1650", "concepto": "Barro y piedra", "efectivo": true },
-{ "fecha": "2023-06-10", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true }
+{ "fecha": "2023-06-10", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true },
+{ "fecha": "2023-06-25", "salida": "1000", "concepto": "Prestamo Ramón", "efectivo": false },
+{ "fecha": "2023-07-17", "entrada": "5500", "concepto": "Transferencia a Yair del burro", "efectivo": false },
            ]
