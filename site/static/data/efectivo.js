@@ -6,7 +6,7 @@ var datos=[{ "fecha": "2023-05-06", "entrada": "0", "salida": "1000", "concepto"
 { "fecha": "2023-05-10", "entrada": "0", "salida": "100", "concepto": "Bambus", "efectivo": true },
 { "fecha": "2023-05-10", "entrada": "0", "salida": "100", "concepto": "Timbutina", "efectivo": true },
 { "fecha": "2023-05-10", "entrada": "0", "salida": "200", "concepto": "Manguera y accesorios cortineros", "efectivo": true },
-{ "fecha": "2023-05-19", "entrada": "0", "salida": "500", "concepto": "parte medio motor estaquitas", "efectivo": true },
+{ "fecha": "2023-05-19", "entrada": "0", "salida": "3000", "concepto": "parte medio motor estaquitas", "efectivo": true },
 { "fecha": "2023-05-20", "entrada": "0", "salida": "500", "concepto": "Telas y cortinas bazar", "efectivo": true },
 { "fecha": "2023-05-21", "entrada": "0", "salida": "178.50", "concepto": "Tapa WC beige", "efectivo": true },
 { "fecha": "2023-05-22", "entrada": "0", "salida": "350", "concepto": "Día Sr Sergio", "efectivo": true },
