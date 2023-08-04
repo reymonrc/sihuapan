@@ -43,26 +43,7 @@
     <thead class="thead-light">
     <tr><th>Concepto</th><th>Cantidad</th></tr>
     </thead>
-
-    <tbody>
-      <tr>
-      <td>Compra tubo</td>
-      <td>10000</td>
-      </tr><tr>
-      <td>Compra cople</td>
-      <td>4000</td>
-      </tr><tr>
-      <td>Comida 1er dia</td>
-      <td>700</td>
-      </tr><tr>
-      <td>Comida 2o dia
-      </td>
-      <td>650</td>
-      </tr><tr>
-      <td>Comida 3er dia
-      </td>
-      <td>1050</td>
-      </tr></tbody>
+    <tbody></tbody>
   </table>
   </div>
   
@@ -71,7 +52,13 @@
 var t1=null;
 {
 
-  t1=FathGrid("table1",{
+  t1=FathGrid("table1",{data:[
+    ['Compra tubo',	'10000'],
+    ['Compra cople',	'4000'],
+    ['Comida 1er dia',	'700'],
+    ['Comida 2o dia',	'650'],
+    ['Comida 3er dia',	'1050']
+    ],
       size:10,
       language:'es',rtl:true,
       editable:true,
