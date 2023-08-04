@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Parcela ATD</title>
+    
+    <!-- add jsPdf to enable PDF export -->
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+
+    <!-- add chart.js to enable charting 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    -->
+    <script src="FathGrid.js" ></script>
+  </head>
+  <body style="direction: rtl;text-align:right;" dir="rtl" class="rtl">
+      <div class="container-fluid">
+    <h1>Cambio tubo 400mts parcela de Alberto Turrent Dominguez</h1>
+
+    <div id="toolbar">
+    <div style="display: flex;">
+      <div style="flex-grow: 1">Records per page: <select onchange="t1.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option></select></div>
+      <div style="flex-grow: 1">
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Search</span>
+          </div>
+          <input onchange="t1.search(this.value)" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>        
+      </div>
+    </div>
+  </div>
+
+
+    
+    <table  id="table1" class="table table-hover table-bordered " >
+    <thead class="thead-light">
+    <tr><th>Concepto</th><th>Cantidad</th></tr>
+    </thead>
+
+    <tbody>
+      <tr>
+      <td>Compra tubo</td>
+      <td>10000</td>
+      </tr><tr>
+      <td>Compra cople</td>
+      </tr><tr>
+      <td>Comida 1er dia</td>
+      <td>700</td>
+      </tr><tr>
+      <td>Comida 2o dia
+      </td>
+      <td>650</td>
+      </tr><tr>
+      <td>Comida 3er dia
+      </td>
+      <td>1050</td>
+      </tr></tbody>
+  </table>
+  </div>
+  
+    <script>
+
+var t1=null;
+{
+
+  t1=FathGrid("table1",{
+      size:10,
+      language:'ar',rtl:true,
+      editable:true,
+      filterable:true,
+      sortable:true,
+      onChange:function(item,col,old,value){console.log("onChange:",item.id,col,old,value);return value==''?false:true;},
+      
+      selectColumns:true,
+      columns:[
+        {},
+        {
+        }
+      ],
+
+//      graphValues:(data)=>({title:"Songs by artist",labels:[... new Set(data.map(x=>x[3]))],values:[... new Set(data.map(x=>x[3]))].map(x=>data.filter(i=>i[3]==x).length)  })
+    });
+
+
+}
+    
+    </script>
+
+  </body>
+</html>
+
+
