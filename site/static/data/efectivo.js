@@ -31,4 +31,5 @@ var datos=[{ "fecha": "2023-05-06", "entrada": "0", "salida": "1000", "concepto"
 { "fecha": "2023-06-25", "entrada": "0", "salida": "1000", "concepto": "Prestamo Ramón", "efectivo": false },
 { "fecha": "2023-07-17", "entrada": "5500", "salida": "0", "concepto": "Transferencia a Yair del burro", "efectivo": false },
 { "fecha": "2023-07-22", "entrada": "9900", "salida": "0", "concepto": "Retiro cajero RRC", "efectivo": false },
+{ "fecha": "2023-07-30", "entrada": "9900", "salida": "0", "concepto": "Retiro cajero RRC", "efectivo": false },           
            ]
