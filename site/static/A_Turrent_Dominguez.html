@@ -81,10 +81,10 @@ var t1=null;
       
       selectColumns:true,
       columns:[
-        {},
         {
           footer:FathGrid.SUM,
-          groupFooter:FathGrid.SUM        }
+          groupFooter:FathGrid.SUM        },
+        {},
       ],
 
 //      graphValues:(data)=>({title:"Songs by artist",labels:[... new Set(data.map(x=>x[3]))],values:[... new Set(data.map(x=>x[3]))].map(x=>data.filter(i=>i[3]==x).length)  })
