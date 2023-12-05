@@ -9,7 +9,7 @@ values:
   - heading: "Huella contaminante"
     text: >
       Uso de material reciclable o biodegradable para un impacto mínimo en la contaminación por plásticos del ambiente. 
-    imageUrl: "/img/Lag-escala.jpg"
+    imageUrl: "/img/Sancho.jpg"
   - heading: "Auto sustentabilidad"
     text: >
       Se buscan actividades encaminadas a la auto sustentabilidad del proyecto.
