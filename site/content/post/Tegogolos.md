@@ -8,8 +8,8 @@ image: /img/Tegogolos.jpg
 
 Se inicia la construcción del módulo de producción intensiva con 3 tanques.
 
-![dia1-1](/img/03035-1.jpg) 
-![dia1-2](/img/03035-2.jpg)
-![dia1-3](/img/03035-3.jpg)
+![dia1-1](/img/0503-1.jpg) 
+![dia1-2](/img/0503-2.jpg)
+![dia1-3](/img/0503-3.jpg)
 
 Se propone ocupar el agua de desecho para el cultivo del alimento msimo de los tegologolos (malanga).
