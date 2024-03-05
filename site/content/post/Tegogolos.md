@@ -6,7 +6,7 @@ description: >-
 image: /img/Tegogolos.jpg
 ---
 
-Se inicia la construcción del módulo de producción intensiva con 3 tanques.
+Se inicia la construcción del módulo de producción intensiva de [tegoglo](https://es.wikipedia.org/wiki/Pomacea) con 3 tanques.
 
 ![dia1-1](/img/0503-1.jpg) 
 ![dia1-2](/img/0503-2.jpg)
