@@ -12,4 +12,6 @@ Se inicia la construcción del módulo de producción intensiva de [tegoglo](htt
 ![dia1-2](/img/0503-2.jpg)
 ![dia1-3](/img/0503-3.jpg)
 
+![dia4](/img/0507.jpg)
+
 Se propone ocupar el agua de desecho para el cultivo del alimento msimo de los tegologolos (malanga).
