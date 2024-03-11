@@ -4,7 +4,7 @@ date: 2024-03-04T09:04:10.000Z
 description: >-
   Proyecto de producción intensiva de tegogolos
 image: /img/Tegogolos.jpg
-draft: true
+draft: false
 ---
 
 # Tegoglos
