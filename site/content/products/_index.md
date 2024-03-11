@@ -27,14 +27,8 @@ main:
   description: >
     El proyecto de apicultura dió inicio en abril de 2022, consistiendo de 3 núcleos, desde sus inicios la formación y capacitación de jóvenes apicultores ha sido una de las prioridades.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Abejas primeras
+    image: /img/Abejas0.jpg
 testimonials:
   - author: ERCM
     quote: >-
