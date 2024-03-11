@@ -2,18 +2,18 @@
 title: Proyecto Tegoglos
 date: 2024-03-04T09:04:10.000Z
 description: >-
-  Proyecto de producción intensiva de tegogolos
+  Producción intensiva de tegogolo
 image: /img/Tegogolos.jpg
 draft: false
 ---
 
 # Tegoglos
 
-Motivados por la conservación del [tegoglo](https://es.wikipedia.org/wiki/Pomacea) nativo de la laguna de Catemaco; se inicia este proyecto, buscando reducir su presca en la laguna misma y producir intensivamente en un ambiente controlado un producto de calidad adecuada para el consumo humano.
+Motivados por la conservación del [tegoglo](https://es.wikipedia.org/wiki/Pomacea) nativo de la laguna de Catemaco; se inicia este proyecto, buscando reducir su pesca en la laguna misma y producir asi intensivamente en un ambiente controlado un producto de calidad adecuada para el consumo humano.
 
 ## Inicio
 
-Se inicia la construcción del módulo de producción intensiva de  con 3 tanques.
+Se inicia la construcción del módulo con 3 tanques.
 
 ![dia1-1](/img/0503-1.jpg) 
 ![dia1-2](/img/0503-2.jpg)
