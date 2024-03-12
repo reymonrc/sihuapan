@@ -8,7 +8,7 @@ image: /img/Tegogolos.jpg
 draft: false
 intro: 
   blurbs:
-    - text: >
+    text: >
 Motivados por la conservación del [tegoglo](https://es.wikipedia.org/wiki/Pomacea) nativo de la laguna de Catemaco; se inicia este proyecto, buscando reducir su pesca en la laguna misma y producir asi intensivamente en un ambiente controlado un producto de calidad adecuada para el consumo humano.
 ---
 
