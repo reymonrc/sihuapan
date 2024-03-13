@@ -28,7 +28,7 @@ Avance a los 8 días de trabajo
 
 ## Capacitación
 
-__Inicio__ 18 de marzo 10 am
+![Cartel](/img/invitacion.jpg)
 
 ## Continuación
 
