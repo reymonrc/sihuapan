@@ -32,4 +32,4 @@ Avance a los 8 días de trabajo
 
 ## Continuación
 
-Se propone reutilizar el agua de desecho para el cultivo del alimento msimo de los tegologolos (malanga).
+Se propone reutilizar el agua de desecho para el cultivo del alimento msimo de los tegologolos (malanga y cocuite).
