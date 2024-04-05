@@ -8,9 +8,6 @@ draft: false
 ---
 
 
-
-## Inicio
-
 Se inicia la construcción del módulo con 3 tanques.
 
 ![dia1-1](/img/0503-1.jpg) 

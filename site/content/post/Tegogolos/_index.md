@@ -1,5 +1,5 @@
 ---
-title: Proyecto Tegoglos
+title: Tegoglos
 date: 2024-03-04T09:04:10.000Z
 description: >-
   Producción intensiva de tegogolo
