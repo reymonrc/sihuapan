@@ -17,6 +17,6 @@ datos23=[
 {"fecha": "Ene-Dic", "salida": "67600", "entrada": "0", "concepto": "Mano de obra - campo", "efectivo": true},
 {"fecha": "Ene-Dic", "salida": "42000", "entrada": "0", "concepto": "Insumos - campo", "efectivo": true},
 ];
-datos23=[
+datos24=[
 {"fecha": "Ene", "salida": "0", "entrada": "1000", "concepto": "Renta 1ha sandia-cocal", "efectivo": true},
 ];
