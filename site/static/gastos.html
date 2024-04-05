@@ -33,6 +33,19 @@
         
     <h1>2022</h1>
 
+    <div style="display: flex;">
+      <div style="flex-grow: 1">Registros por página: <select id="selSize" onchange="t1.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+      <div style="flex-grow: 1">
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Búsqueda</span>
+          </div>
+          <input onchange="t1.search(this.value)" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>        
+      </div>
+    </div>
+
     
     <table  id="table1" class="table table-hover table-bordered ">
       <thead class="thead-light"></thead>
@@ -40,6 +53,19 @@
     </table>
 
     <h1>2023</h1>
+
+    <div style="display: flex;">
+      <div style="flex-grow: 1">Registros por página: <select id="selSize" onchange="t2.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+      <div style="flex-grow: 1">
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Búsqueda</span>
+          </div>
+          <input onchange="t2.search(this.value)" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>        
+      </div>
+    </div>
 
     
     <table  id="table2" class="table table-hover table-bordered ">
