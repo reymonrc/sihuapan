@@ -14,4 +14,9 @@ datos23=[
 {"fecha": "Jun", "salida": "0", "entrada": "37500", "concepto": "Renta 2.5has tabaco-soltadero", "efectivo": true},
 {"fecha": "Jun", "salida": "0", "entrada": "15000", "concepto": "Renta 1ha tabaco-cocal", "efectivo": true},
 {"fecha": "Nov", "salida": "0", "entrada": "4000", "concepto": "Renta 2has maiz-soltadero", "efectivo": true},
+{"fecha": "Ene-Dic", "salida": "67600", "entrada": "0", "concepto": "Mano de obra - campo", "efectivo": true},
+{"fecha": "Ene-Dic", "salida": "42000", "entrada": "0", "concepto": "Insumos - campo", "efectivo": true},
+];
+datos23=[
+{"fecha": "Ene", "salida": "0", "entrada": "1000", "concepto": "Renta 1ha sandia-cocal", "efectivo": true},
 ];
