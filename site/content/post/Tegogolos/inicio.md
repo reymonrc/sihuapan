@@ -3,7 +3,7 @@ title: Inicio Tegoglos
 date: 2024-03-04T09:04:10.000Z
 description: >-
   Producción intensiva de tegogolo
-image: /img/Tegogolos.jpg
+image: /img/construccion.jpg
 draft: false
 ---
 
