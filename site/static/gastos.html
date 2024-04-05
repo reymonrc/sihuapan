@@ -54,6 +54,18 @@
       <thead class="thead-light"></thead>
       <tbody></tbody>
     </table>
+
+    <h1>2024</h1>
+
+    <div style="display: flex;">
+      <div style="flex-grow: 1">Registros por página: <select id="selSize" onchange="t2.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+    </div>
+
+    
+    <table  id="table3" class="table table-hover table-bordered ">
+      <thead class="thead-light"></thead>
+      <tbody></tbody>
+    </table>
   </div>
   
   <script src="data/gastos.js"></script>
@@ -96,7 +108,6 @@
     if(objConfig!==null) t1.loadConfig(objConfig);
     document.querySelector("#selSize").value=t1.getPageSize();
 
-
     var t2=FathGrid("table2",{
       size:10,
       editable:true,
@@ -133,6 +144,43 @@
     var objConfig2=localStorage.getItem("t2_config");
     if(objConfig2!==null) t2.loadConfig(objConfig);
     document.querySelector("#selSize").value=t2.getPageSize();
+
+    var t3=FathGrid("table3",{
+      size:10,
+      editable:true,
+      filterable:true,
+      sortable:true,
+      showFooter:true,
+      onChange:function(item,col,old,value){console.log("onChange:",item.id,col,old,value);return value==''?false:true;},
+      rowClass:function(dr,idx){return dr.id==3?'table-info':(dr.id==9?'table-warning':'')},
+      inputClass:'form-control',
+      selectColumns:true,
+      columns:[
+        {
+          name:'fecha',header:'Fecha',
+          type:'text'
+        },
+        {type: 'text',editable: true,name:'concepto',header: 'Concepto'},
+        {type:'text',editable:true,
+          name:'salida',header:'Salida',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {type:'text',editable:true,
+          name:'entrada',header:'Entrada',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {name:'efectivo',type:'checkbox',header:'Efectivo',visible:false,filter:[{value:false,name:'No'},{value:true,name:'Sí'}]}, //invisible grouping column
+      ],
+      data:datos24,
+      showGraph: false,
+    });
+    
+    window.addEventListener('beforeunload',function(){ localStorage.setItem("t3_config",t3.saveConfig())});
+    var objConfig3=localStorage.getItem("t3_config");
+    if(objConfig3!==null) t3.loadConfig(objConfig);
+    document.querySelector("#selSize").value=t3.getPageSize();
 
     </script>
   </body>
