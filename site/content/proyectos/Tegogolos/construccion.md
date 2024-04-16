@@ -1,9 +1,8 @@
 ---
-title: Inicio Tegoglos
+heading: Construcción
 date: 2024-03-04T09:04:10.000Z
-description: >-
-  Producción intensiva de tegogolo
-image: /img/construccion.jpg
+subtitle: Inicio de trabajos
+imageUrl: /img/construccion.jpg
 draft: false
 ---
 
