@@ -3,8 +3,6 @@ title: Proyectos
 type: products
 image: /img/Casa-atras.jpg
 heading: Soñamos
-description: >-
-  Contamos con entorno natural para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
 intro:
   blurbs:
     - image: /img/rio.jpg
