@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - folder: "site/content/proyectos"
+      - file: "site/content/proyectos/_index.md"
         label: "Projects Page"
         name: "proyectos"
         fields:
