@@ -1,7 +1,8 @@
 ---
-tile: Inicio
+heading: Inicio
 date: 2024-03-29T09:04:10.000Z
-subtitle: Introducción de reproductores
+description: >-
+  Introducción de reproductores
 imageUrl: /img/construccion.jpg
 draft: false
 ---
