@@ -1,5 +1,6 @@
 ---
-title: Meliponas
+title: Chancarro
+type: single
 date: 2024-03-14T09:04:10.000Z
 description: >-
   Aprovechamiento de la hoja de chancarro
@@ -7,4 +8,4 @@ image: /img/meliponas.jpg
 draft: false
 ---
 
-Motivados por la preservación de la [melipona](https://www.gob.mx/agricultura/articulos/melipona-beecheii-la-abeja-sagrada-maya) especie endémica, se inicia el proyecto.
+Motivados por el aprendizaje de la herbolaria y medicina tradicional, iniciamos la recolección de la hoja de [https://telenaturista.com/product/para-que-sirve-el-chancarro/](chancarro)
