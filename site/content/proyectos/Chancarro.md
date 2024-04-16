@@ -1,9 +1,9 @@
 ---
 title: Meliponas
-date: 2024-03-21T09:04:10.000Z
+date: 2024-03-14T09:04:10.000Z
 description: >-
   Aprovechamiento de la hoja de chancarro
-: /img/meliponas.jpg
+image: /img/meliponas.jpg
 draft: false
 ---
 
