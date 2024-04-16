@@ -3,7 +3,7 @@ title: Construcción
 date: 2024-03-04T09:04:10.000Z
 description: >-
   Inicio de trabajos
-imageUrl: /img/construccion.jpg
+image: /img/construccion.jpg
 draft: false
 ---
 
