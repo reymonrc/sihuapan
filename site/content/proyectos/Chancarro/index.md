@@ -1,10 +1,10 @@
 ---
 title: Chancarro
-type: single
+type: post
 date: 2024-03-14T09:04:10.000Z
 description: >-
   Aprovechamiento de la hoja de chancarro
-imageUrl: /img/meliponas.jpg
+image: /img/meliponas.jpg
 draft: false
 ---
 
