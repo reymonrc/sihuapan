@@ -11,12 +11,15 @@
     <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
     <p>{{ .description }}</p>
   </div>
-      {{ .Content }}
 </div>
 
 <!-- Image grid -->
 {{ partial "image-grid" . }}
 {{ end }}
+
+<div class="mw7 center">
+      {{ .Content }}
+</div>
 
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
