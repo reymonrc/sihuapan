@@ -9,6 +9,7 @@ draft: false
 intro:
   description: >-
     Aprovechamiento y preservacion de meliponas
+intro:
+  description: >-
+    Motivados por la preservación de la [melipona](https://www.gob.mx/agricultura/articulos/melipona-beecheii-la-abeja-sagrada-maya) especie endémica, se inicia el proyecto.
 ---
-
-Motivados por la preservación de la [melipona](https://www.gob.mx/agricultura/articulos/melipona-beecheii-la-abeja-sagrada-maya) especie endémica, se inicia el proyecto.

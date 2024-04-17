@@ -3,7 +3,7 @@ heading: Construcción
 date: 2024-04-02T09:04:10.000Z
 description: >-
   Consctrucción meliponario
-imageUrl: /proyectos/Meliponas/img/Mel2.jpg 
+image: /proyectos/Meliponas/img/Mel2.jpg 
 draft: false
 ---
 
