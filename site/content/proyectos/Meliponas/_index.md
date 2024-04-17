@@ -2,6 +2,8 @@
 title: Meliponas
 type: proyecto
 date: 2024-03-14T09:04:10.000Z
+description: >-
+  Meliponas
 image: /img/meliponas.jpg
 draft: false
 intro:

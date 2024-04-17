@@ -17,3 +17,5 @@ Motivados por la conservación del [tegoglo](https://es.wikipedia.org/wiki/Pomac
 ## Inicio
 
 [Construcción](/post/tegogolos/inicio)
+
+[Escabeche](https://www.redalyc.org/journal/674/67470553001/html/)
