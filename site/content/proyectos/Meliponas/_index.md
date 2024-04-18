@@ -11,5 +11,5 @@ intro:
 draft: false
 ---
 
-Motivados por la preservación de la [melipona](https://www.gob.mx/agricultura/articulos/melipona-beecheii-la-abeja-sagrada-maya) especie endémica, se inicia el proyecto.
+Motivados por la preservación de la abeja [melipona](https://www.gob.mx/agricultura/articulos/melipona-beecheii-la-abeja-sagrada-maya), especie endémica originaria de américa, se inicia este proyecto.
 
