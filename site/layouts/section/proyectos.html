@@ -18,20 +18,22 @@
 {{ end }}
 
 
-<div class="mw7 center">
+<div class="mw6 center ph3 pv4">
+    <div class="mw7 center">
       {{ .Content }}
-</div>
+    </div>
 
 
-<div class="mw7 center">
-  <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+    <div class="mw7 center">
+        <ul class="flex-ns flex-wrap mhn1-ns pa3">
+        {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
           <div class="w-50-ns ph1-ns flex">
             {{ .Render "li"}}
           </div>
-      {{ end }}
-  </ul>
-  {{ partial "pagination" . }}
+        {{ end }}
+        </ul>
+        {{ partial "pagination" . }}
+    </div>
 </div>
 
 {{end}}
