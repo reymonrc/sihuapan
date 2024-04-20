@@ -34,4 +34,5 @@ Se inicia la construcción de un meliponario para unas 50 cajas.
 
 - Fin
 
+![fin](/proyectos/Meliponas/img/Mel3.jpg) 
 ![fin](/proyectos/Meliponas/img/Mel1.jpg) 
