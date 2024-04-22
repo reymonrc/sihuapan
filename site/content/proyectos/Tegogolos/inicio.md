@@ -1,5 +1,5 @@
 ---
-    heading: Reproductores
+title: Reproductores
 date: 2024-03-29T09:04:10.000Z
 description: >-
   Introducción de reproductores

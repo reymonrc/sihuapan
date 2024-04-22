@@ -1,9 +1,9 @@
 ---
-heading: Masas ovales
+title: Masas ovales
 date: 2024-04-03T09:04:10.000Z
 description: >-
-  Primero huvecillos
-imageUrl: /proyectos/tegogolos/docs/incubadoras.jpg
+  Primeros huvecillos
+image: /proyectos/tegogolos/docs/incubadoras.jpg
 draft: false
 ---
 
