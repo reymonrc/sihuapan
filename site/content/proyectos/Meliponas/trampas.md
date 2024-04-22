@@ -3,7 +3,7 @@ heading: Trampas
 date: 2024-03-21T09:04:10.000Z
 description: >-
   Trampeo
-image: /proyectos/Meliponas/img/T1.jpg 
+image: /proyectos/Meliponas/img/Trampas.jpg 
 draft: false
 ---
 

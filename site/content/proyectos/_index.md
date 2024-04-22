@@ -1,11 +1,11 @@
 ---
 title: Hacemos
 type: proyecto
-image: /img/Casa-atras.jpg
+image: /Proyectos/Proyectos.jpg
 intro:
   heading: Realidades
   blurbs:
-    - image: /img/rio.jpg
+    - image: /Proyectos/Primavera.jpg
       text: >
         Conservación de especies endémicas
     - image: /Finca/seis.jpg

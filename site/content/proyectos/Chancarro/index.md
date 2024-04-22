@@ -3,7 +3,7 @@ title: Chancarro
 date: 2024-03-14T09:04:10.000Z
 description: >-
   Aprovechamiento de la hoja de chancarro
-image: /img/meliponas.jpg
+image: /proyectos/chancarro/Chancarro.jpg
 draft: false
 ---
 
