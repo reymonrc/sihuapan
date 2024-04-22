@@ -16,8 +16,8 @@ draft: false
 
 - Avance a los 5 días de trabajo
 
-![dia5-1](/proyectos/Tegoglos/docs/IMG-20240307-WA0002.jpg) 
-![dia5-2](/proyectos/Tegoglos/docs/IMG-20240308-WA0008.jpg) 
+![dia5-1](/proyectos/Tegogolos/docs/IMG-20240307-WA0002.jpg) 
+![dia5-2](/proyectos/Tegogolos/docs/IMG-20240308-WA0008.jpg) 
 
 - Avance a los 9 días de trabajo
 
@@ -33,7 +33,7 @@ draft: false
 
 - Etapa final
 
-![dia10-1](/proyectos/Tegoglos/docs/IMG-20240314-WA0007.jpg) 
-![dia10-2](/proyectos/Tegoglos/docs/IMG-20240314-WA0008.jpg) 
-![dia10-3](/proyectos/Tegoglos/docs/IMG-20240314-WA0011.jpg) 
-![dia10-4](/proyectos/Tegoglos/docs/IMG-20240314-WA0012.jpg) 
+![dia10-1](/proyectos/Tegogolos/docs/IMG-20240314-WA0007.jpg) 
+![dia10-2](/proyectos/Tegogolos/docs/IMG-20240314-WA0008.jpg) 
+![dia10-3](/proyectos/Tegogolos/docs/IMG-20240314-WA0011.jpg) 
+![dia10-4](/proyectos/Tegogolos/docs/IMG-20240314-WA0012.jpg) 
