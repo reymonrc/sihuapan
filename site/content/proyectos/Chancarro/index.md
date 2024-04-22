@@ -7,7 +7,8 @@ image: /proyectos/chancarro/Chancarro.jpg
 draft: false
 ---
 
-Motivados por el aprendizaje de la herbolaria y medicina tradicional, iniciamos la recolección de la hoja de [chancarro](https://telenaturista.com/product/para-que-sirve-el-chancarro/), su molido y encapsulado.
+Motivados por el aprendizaje de la herbolaria y medicina tradicional, iniciamos la recolección de la hoja de [chancarro](https://telenaturista.com/product/para-que-sirve-el-chancarro/),
+su molido y encapsulado.
 
 
 # Referencias

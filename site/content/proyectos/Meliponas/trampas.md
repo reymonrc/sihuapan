@@ -7,7 +7,7 @@ image: /proyectos/Meliponas/img/Trampas.jpg
 draft: false
 ---
 
-Se consiguieron 100 trampas y 48 + 2 cajas
+Se consiguieron 100 trampas y 46 + 4 cajas
 
 
 - Se inicia el tramepeo por la casa
