@@ -6,8 +6,8 @@ description: >-
   Meliponas
 image: /img/meliponas.jpg
 intro:
-  description: >-
-    Aprovechamiento y preservacion de la abeja sagrada maya
+  heading: >-
+    Preservacion y aprovechamiento de la abeja sagrada maya
 draft: false
 ---
 

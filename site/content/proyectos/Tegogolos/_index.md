@@ -19,4 +19,3 @@ Motivados por la conservación del [tegogolo](https://es.wikipedia.org/wiki/Poma
 iniciamos el proyecto de construcción de un criadero para producción intensiva, buscando de esta manera reducir
 su sobreexplotación en la laguna y producir en un ambiente controlado un producto de calidad adecuada para el consumo humano.
 
-- Estudio nutricional [Escabeche](https://www.redalyc.org/journal/674/67470553001/html/)
