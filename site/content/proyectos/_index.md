@@ -25,8 +25,8 @@ draft: false
 
 # Principales
 
-- [Tegogolos](proyectos/tegogolos)
+## [Tegogolos](proyectos/tegogolos)
 
-- [Meliponas](proyectos/meliponas)
+## [Meliponas](proyectos/meliponas)
 
 # Otros
