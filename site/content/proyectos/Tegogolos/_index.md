@@ -3,11 +3,11 @@ title: Tegogolos
 type: proyecto
 date: 2024-03-04T09:04:10.000Z
 image: /img/Tegogolos.jpg
-draft: false
+description: >-
+  Producción intensiva de tegogolo
 intro:
   heading: Criadero de tegoglos
-  description: >-
-    Producción intensiva de tegogolo
+draft: false
 ---
 
 Motivados por la conservación del [tegogolo](https://es.wikipedia.org/wiki/Pomacea) nativo de la laguna de Catemaco;
