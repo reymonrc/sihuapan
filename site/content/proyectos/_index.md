@@ -15,6 +15,12 @@ intro:
     Contamos con un entorno natural, ideal para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
 ---
 
+## [Tegogolos](tegogolos)
+
+## [Meliponas](meliponas)
+
+# Referencias
+
 [Chicalote](http://www.medicinatradicionalmexicana.unam.mx/apmtm/termino.php?l=3&t=argemone-mexicana)
 
 [Cornizuelo](https://www.youtube.com/watch?v=-JR3QTtBZAw)

@@ -7,15 +7,13 @@ description: >-
 image: /img/Tegogolos.jpg
 draft: false
 intro:
+  heading: Realidades
   description: >-
     Producción intensiva de tegogolo
 ---
 
-Motivados por la conservación del [tegogolo](https://es.wikipedia.org/wiki/Pomacea) nativo de la laguna de Catemaco; se inicia el proyecto de construcción de un criadero, buscando reducir la pesca en la laguna misma y producir asi en un ambiente controlado un producto de calidad adecuada para el consumo humano.
+Motivados por la conservación del [tegogolo](https://es.wikipedia.org/wiki/Pomacea) nativo de la laguna de Catemaco;
+iniciamos el proyecto de construcción de un criadero, buscando de esta manera reducir su sobreexplotación en la laguna y producir
+en un ambiente controlado un producto de calidad adecuada para el consumo humano.
 
-
-## Inicio
-
-[Construcción](/post/tegogolos/inicio)
-
-[Escabeche](https://www.redalyc.org/journal/674/67470553001/html/)
+- Estudio nutricional [Escabeche](https://www.redalyc.org/journal/674/67470553001/html/)

@@ -7,12 +7,10 @@ image: /proyectos/tegogolos/docs/incubadoras.jpg
 draft: false
 ---
 
-- Primer día
+Se introducen los primeros reproductores de las especies
 
-![dia1-1](/proyectos/tegogolos/docs/masaH,jpg) 
-![dia1-2](/proyectos/tegogolos/docs/masah0.jpg)
+- pomacea patula catemacensis
+- pomacea canaliculata
 
 
-- Segundo día
-
-![dia2](/proyectos/tegogolos/docs/masah1.jpg)
+![dia1-1](/proyectos/tegogolos/docs/,jpg)
