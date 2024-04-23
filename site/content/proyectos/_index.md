@@ -15,9 +15,9 @@ intro:
     Contamos con un entorno natural, ideal para la realización de proyectos sustentables, ecológicos de rescate de la naturaleza y tradiciones de la región.
 ---
 
-- [Tegogolos](tegogolos)
+- [Tegogolos](./tegogolos)
 
-- [Meliponas](meliponas)
+- [Meliponas](./meliponas)
 
 
 # Referencias
