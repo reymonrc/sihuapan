@@ -5,10 +5,10 @@ image: /Proyectos/Proyectos.jpg
 intro:
   heading: Realidades
   blurbs:
-    - image: /Proyectos/Primavera.jpg
+    - image: /img/Sancho.jpg
       text: >
         Conservación de especies endémicas
-    - image: /Finca/seis.jpg
+    - image: /Proyectos/Primavera.jpg
       text: >
          Herbolaria y aprovechamiento de plantas medicinales 
   description: >-
@@ -22,6 +22,6 @@ intro:
 
 # Referencias
 
-    - [Chicalote](http://www.medicinatradicionalmexicana.unam.mx/apmtm/termino.php?l=3&t=argemone-mexicana)
+- [Chicalote](http://www.medicinatradicionalmexicana.unam.mx/apmtm/termino.php?l=3&t=argemone-mexicana)
 
-    - [Cornizuelo](https://www.youtube.com/watch?v=-JR3QTtBZAw)
+- [Cornizuelo](https://www.youtube.com/watch?v=-JR3QTtBZAw)

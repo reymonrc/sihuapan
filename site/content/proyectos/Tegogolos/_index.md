@@ -2,12 +2,10 @@
 title: Tegogolos
 type: proyecto
 date: 2024-03-04T09:04:10.000Z
-description: >-
-  Producción intensiva de tegogolos
 image: /img/Tegogolos.jpg
 draft: false
 intro:
-  heading: Realidades
+  heading: Criadero de tegoglos
   description: >-
     Producción intensiva de tegogolo
 ---
