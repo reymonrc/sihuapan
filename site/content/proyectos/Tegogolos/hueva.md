@@ -9,9 +9,9 @@ draft: false
 
 Primer día 
 
-![dia1-1](/proyectos/tegogolos/docs/masaH,jpg)
-![dia1-2](/proyectos/tegogolos/docs/masah0,jpg)
+![dia1-1](/proyectos/tegogolos/docs/masaH.jpg)
+![dia1-2](/proyectos/tegogolos/docs/masah0.jpg)
 
 Segundo día
 
-![dia1-2](/proyectos/tegogolos/docs/masah1,jpg)
+![dia1-2](/proyectos/tegogolos/docs/masah1.jpg)
