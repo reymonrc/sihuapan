@@ -40,11 +40,10 @@ draft: false
 - [pomacea flagellata](https://www.redalyc.org/journal/449/44947539022/html/) ([inglés](https://www.applesnail.net/content/species/pomacea_flagellata.htm))
 
 ![dia4-1](/proyectos/Tegogolos/docs/IMG-20240401-WA0001.jpg)
-![dia4-2](/proyectos/Tegogolos/docs/IMG-20240401-WA0003.jpg)
-![dia4-3](/proyectos/Tegogolos/docs/IMG-20240401-WA0005.jpg)
-![dia4-4](/proyectos/Tegogolos/docs/IMG-20240401-WA0007.jpg)
-![dia4-5](/proyectos/Tegogolos/docs/IMG-20240401-WA0008.jpg)
-![dia4-6](/proyectos/Tegogolos/docs/IMG-20240401-WA0009.jpg)
+![dia4-2](/proyectos/Tegogolos/docs/IMG-20240401-WA0005.jpg)
+![dia4-3](/proyectos/Tegogolos/docs/IMG-20240401-WA0007.jpg)
+![dia4-4](/proyectos/Tegogolos/docs/IMG-20240401-WA0008.jpg)
+![dia4-5](/proyectos/Tegogolos/docs/IMG-20240401-WA0009.jpg)
 
 # Notas
 

@@ -1,14 +1,14 @@
 ---
 title: Hacemos
 type: proyecto
-image: /Proyectos/Proyectos.jpg
+image: /proyectos/Proyectos.jpg
 intro:
   heading: Realidades
   blurbs:
     - image: /img/Sancho.jpg
       text: >
         Conservación de especies endémicas
-    - image: /Proyectos/Primavera.jpg
+    - image: /proyectos/Primavera.jpg
       text: >
          Herbolaria y aprovechamiento de plantas medicinales 
   description: >-
