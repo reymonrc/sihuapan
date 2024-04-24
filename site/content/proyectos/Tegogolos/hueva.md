@@ -7,11 +7,11 @@ image: /proyectos/tegogolos/docs/incubadoras.jpg
 draft: false
 ---
 
-Primer día 
+- Primer día 
 
 ![dia1-1](/proyectos/tegogolos/docs/masaH.jpg)
 ![dia1-2](/proyectos/tegogolos/docs/masah0.jpg)
 
-Segundo día
+- Segundo día
 
 ![dia1-2](/proyectos/tegogolos/docs/masah1.jpg)
