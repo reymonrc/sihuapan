@@ -3,7 +3,7 @@ title: Reproductores
 date: 2024-03-29T09:04:10.000Z
 description: >-
   Introducción de reproductores
-imageUrl: /proyectos/tegoggolos/docs/IMG-20240326-WA0001.jpg
+imageUrl: /proyectos/tegogolos/docs/IMG-20240326-WA0001.jpg
 draft: false
 ---
 
@@ -32,7 +32,7 @@ draft: false
 ![dia1-20](/proyectos/Tegogolos/docs/IMG_20240329_170516.jpg)
 ![dia1-21](/proyectos/Tegogolos/docs/IMG_20240329_170726.jpg)
 ![dia1-22](/proyectos/Tegogolos/docs/IMG_20240329_170842.jpg)
-![dia1-23](/proyectos/Tegogolos/docs/IMG_20240329_174216.jpg)
+![dia1-23](/proyectos/Tegogolos/docs/IMG_20240329_174236.jpg)
 ![dia1-24](/proyectos/Tegogolos/docs/IMG_20240330_112924045.jpg)
 ![dia1-25](/proyectos/Tegogolos/docs/IMG_20240330_113022531.jpg)
 ![dia1-26](/proyectos/Tegogolos/docs/IMG_20240330_114354493_HDR.jpg)
