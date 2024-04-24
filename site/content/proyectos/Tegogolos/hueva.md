@@ -25,10 +25,10 @@ draft: false
 
 ![dia6](/proyectos/tegogolos/docs/IMG-20240410-WA0002.jpg)
 
-- Octavo día
+- Octavo día (atacados por arañas)
 
 ![dia6](/proyectos/tegogolos/docs/IMG-20240411-WA0006.jpg)
 
-- Vigésimo día
+- Vigésimo día (dañados por la lluvia)
 
 ![dia6](/proyectos/tegogolos/docs/IMG-20240423-WA0006.jpg)
