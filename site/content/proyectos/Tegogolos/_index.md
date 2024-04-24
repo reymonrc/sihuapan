@@ -17,5 +17,5 @@ draft: false
 
 Motivados por la conservación del [tegogolo](https://es.wikipedia.org/wiki/Pomacea) nativo de la laguna de Catemaco;
 iniciamos el proyecto de construcción de un criadero para producción intensiva, buscando de esta manera reducir
-su sobreexplotación en la laguna y producir en un ambiente controlado un producto de calidad adecuada para el consumo humano.
+su sobreexplotación pesquera en la laguna y producir en un ambiente controlado un producto de calidad adecuada para el consumo humano.
 
