@@ -15,3 +15,20 @@ draft: false
 - Segundo día
 
 ![dia1-2](/proyectos/tegogolos/docs/masah1.jpg)
+
+
+- Sexto día
+
+![dia6](/proyectos/tegogolos/docs/IMG-20240409-WA0006.jpg)
+
+- Septimo día
+
+![dia6](/proyectos/tegogolos/docs/IMG-20240410-WA0002.jpg)
+
+- Octavo día
+
+![dia6](/proyectos/tegogolos/docs/IMG-20240411-WA0006.jpg)
+
+- Vigésimo día
+
+![dia6](/proyectos/tegogolos/docs/IMG-20240423-WA0006.jpg)
