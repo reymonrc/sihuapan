@@ -3,16 +3,36 @@ title: Reproductores
 date: 2024-03-29T09:04:10.000Z
 description: >-
   Introducción de reproductores
-imageUrl: /img/construccion.jpg
+imageUrl: /proyectos/tegoggolos/docs/IMG-20240326-WA0001.jpg
 draft: false
 ---
 
 - [pomacea patula catemacensis](http://132.248.9.195/ptd2019/diciembre/0798886/Index.html)
 - [pomacea canaliculata](https://es.wikipedia.org/wiki/Pomacea_canaliculata) ([inglés](https://www.applesnail.net/content/species/pomacea_canaliculata.htm))
 
-![dia1-1](/proyectos/Tegogolos/docs/.jpg) 
-![dia1-2](/proyectos/Tegogolos/docs/.jpg)
-![dia1-3](/proyectos/Tegogolos/docs/.jpg)
+![dia1-1](/proyectos/Tegogolos/docs/IMG-20240330-WA0000.jpg) 
+![dia1-2](/proyectos/Tegogolos/docs/IMG-20240330-WA0001.jpg)
+![dia1-3](/proyectos/Tegogolos/docs/IMG-20240330-WA0002.jpg)
+![dia1-4](/proyectos/Tegogolos/docs/IMG-20240330-WA0003.jpg)
+![dia1-5](/proyectos/Tegogolos/docs/IMG-20240330-WA0004.jpg)
+![dia1-6](/proyectos/Tegogolos/docs/IMG-20240330-WA0005.jpg)
+![dia1-7](/proyectos/Tegogolos/docs/IMG-20240330-WA0006.jpg)
+![dia1-8](/proyectos/Tegogolos/docs/IMG-20240330-WA0007.jpg)
+![dia1-9](/proyectos/Tegogolos/docs/IMG-20240330-WA0008.jpg)
+![dia1-10](/proyectos/Tegogolos/docs/IMG-20240330-WA0009.jpg)
+![dia1-11](/proyectos/Tegogolos/docs/IMG-20240330-WA0010.jpg)
+![dia1-12](/proyectos/Tegogolos/docs/IMG-20240330-WA0011.jpg)
+![dia1-13](/proyectos/Tegogolos/docs/IMG-20240330-WA0012.jpg)
+![dia1-14](/proyectos/Tegogolos/docs/IMG-20240330-WA0013.jpg)
+![dia1-15](/proyectos/Tegogolos/docs/IMG-20240330-WA0014.jpg)
+![dia1-16](/proyectos/Tegogolos/docs/IMG-20240330-WA0015.jpg)
+![dia1-17](/proyectos/Tegogolos/docs/IMG_20240329_170206.jpg)
+![dia1-18](/proyectos/Tegogolos/docs/IMG_20240329_170248.jpg)
+![dia1-19](/proyectos/Tegogolos/docs/IMG_20240329_170456.jpg)
+![dia1-20](/proyectos/Tegogolos/docs/IMG_20240329_170516.jpg)
+![dia1-21](/proyectos/Tegogolos/docs/IMG_20240329_170726.jpg)
+![dia1-22](/proyectos/Tegogolos/docs/IMG_20240329_170842.jpg)
+![dia1-23](/proyectos/Tegogolos/docs/IMG_20240329_174216.jpg)
 
 - [pomacea flagellata](https://www.redalyc.org/journal/449/44947539022/html/) ([inglés](https://www.applesnail.net/content/species/pomacea_flagellata.htm))
 
