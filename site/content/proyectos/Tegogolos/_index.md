@@ -12,6 +12,12 @@ cola:
   blurbs:
     - url: https://www.redalyc.org/journal/674/67470553001/html/
       text: Escabeche
+    - url: /proyectos/Tegogolos/docs/CultivoTegogolo.pdf
+      text: Cultivo
+    - url: /proyectos/Tegogolos/docs/admin,+Cultivo+de+Pomacea+patula+catemacensis+como.pdf
+      text: Rescate
+    - url: /proyectos/Tegogolos/docs/MoluscosMexico.pdf
+      text: Moluscos
 draft: false
 ---
 
