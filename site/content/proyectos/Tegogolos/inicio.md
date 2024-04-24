@@ -33,6 +33,9 @@ draft: false
 ![dia1-21](/proyectos/Tegogolos/docs/IMG_20240329_170726.jpg)
 ![dia1-22](/proyectos/Tegogolos/docs/IMG_20240329_170842.jpg)
 ![dia1-23](/proyectos/Tegogolos/docs/IMG_20240329_174216.jpg)
+![dia1-24](/proyectos/Tegogolos/docs/IMG_20240330_112924045.jpg)
+![dia1-25](/proyectos/Tegogolos/docs/IMG_20240330_113022531.jpg)
+![dia1-26](/proyectos/Tegogolos/docs/IMG_20240330_114354493_HDR.jpg)
 
 - [pomacea flagellata](https://www.redalyc.org/journal/449/44947539022/html/) ([inglés](https://www.applesnail.net/content/species/pomacea_flagellata.htm))
 
