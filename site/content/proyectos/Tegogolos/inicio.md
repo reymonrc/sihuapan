@@ -3,7 +3,7 @@ title: Reproductores
 date: 2024-03-29T09:04:10.000Z
 description: >-
   Introducción de reproductores
-imageUrl: /proyectos/tegogolos/docs/IMG-20240326-WA0001.jpg
+image: /proyectos/Tegogolos/docs/IMG-20240326-WA0001.jpg
 draft: false
 ---
 
@@ -38,6 +38,13 @@ draft: false
 ![dia1-26](/proyectos/Tegogolos/docs/IMG_20240330_114354493_HDR.jpg)
 
 - [pomacea flagellata](https://www.redalyc.org/journal/449/44947539022/html/) ([inglés](https://www.applesnail.net/content/species/pomacea_flagellata.htm))
+
+![dia4-1](/proyectos/Tegogolos/docs/IMG-20240401-WA0001.jpg)
+![dia4-2](/proyectos/Tegogolos/docs/IMG-20240401-WA0003.jpg)
+![dia4-3](/proyectos/Tegogolos/docs/IMG-20240401-WA0005.jpg)
+![dia4-4](/proyectos/Tegogolos/docs/IMG-20240401-WA0007.jpg)
+![dia4-5](/proyectos/Tegogolos/docs/IMG-20240401-WA0008.jpg)
+![dia4-6](/proyectos/Tegogolos/docs/IMG-20240401-WA0009.jpg)
 
 # Notas
 
