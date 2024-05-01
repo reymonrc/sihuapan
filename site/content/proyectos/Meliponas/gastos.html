@@ -55,24 +55,15 @@
       inputClass:'form-control',
       selectColumns:true,
       columns:[
-        {
-          name:'fecha',header:'Fecha',
-          type:'text'
-        },
         {type: 'text',editable: true,name:'concepto',header: 'Concepto'},
         {type:'text',editable:true,
-          name:'salida',header:'Salida',class:"text-right",
-          footer:FathGrid.SUM,
-          groupFooter:FathGrid.SUM
-        },
-        {type:'text',editable:true,
-          name:'entrada',header:'Entrada',class:"text-right",
+          name:'monto',header:'Monto',class:"text-right",
           footer:FathGrid.SUM,
           groupFooter:FathGrid.SUM
         },
         {name:'efectivo',type:'checkbox',header:'Efectivo',visible:false,filter:[{value:false,name:'No'},{value:true,name:'Sí'}]}, //invisible grouping column
       ],
-      data:datos22,
+      data:datosmeli,
       showGraph: false,
     });
     
