@@ -20,6 +20,9 @@ datos23=[
 ];
 datos24=[
 {"fecha": "Ene", "salida": "0", "entrada": "1000", "concepto": "Renta 1ha sandia-cocal", "efectivo": true},
+{"fecha": "Feb", "salida": "0", "entrada": "3000", "concepto": "Renta soltadero", "efectivo": true},
 {"fecha": "Mar", "salida": "0", "entrada": "3000", "concepto": "Renta soltadero", "efectivo": true},
 {"fecha": "Abr", "salida": "0", "entrada": "3000", "concepto": "Renta soltadero", "efectivo": true},
+{"fecha": "Abr", "salida": "0", "entrada": "15000", "concepto": "Aportación Arturo Carrión", "efectivo": false},
+{"fecha": "Abr", "salida": "11940", "entrada": "0", "concepto": "Casita: block, cemento, cal", "efectivo": false},
 ];
