@@ -25,4 +25,6 @@ datos24=[
 {"fecha": "May", "salida": "0", "entrada": "3000", "concepto": "Renta soltadero", "efectivo": true},
 {"fecha": "Abr", "salida": "0", "entrada": "15000", "concepto": "Aportación Arturo Carrión", "efectivo": false},
 {"fecha": "Abr", "salida": "11940", "entrada": "0", "concepto": "Casita: block, cemento, cal", "efectivo": false},
+{"fecha": "May", "salida": "3200", "entrada": "0", "concepto": "Casita: piedra, arena", "efectivo": false},
+{"fecha": "May", "salida": "185", "entrada": "0", "concepto": "Casita: clavo, alambre", "efectivo": false},
 ];
