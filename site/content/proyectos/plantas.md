@@ -8,9 +8,9 @@ draft: false
 - matali morado
 - matali verde
 - mozote blanco / aceitilla
-- muicle / Justicia spicigera
-- Chichiquelite / hierba mora
-- totopoxin / Malvaviscus arboreus 
+- muicle / justicia spicigera
+- chichiquelite / hierba mora
+- totopoxin / malvaviscus arboreus 
 - colocasia
 - chinahuatillo
 - malva
