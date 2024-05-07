@@ -1,0 +1,33 @@
+---
+title: Plantas
+draft: false
+---
+
+- maguey morado
+- lengua de suegra / espada de san jorge
+- matali morado
+- matali verde
+- mozote blanco / aceitilla
+- muicle / Justicia spicigera
+- Chichiquelite / hierba mora
+- totopoxin / Malvaviscus arboreus 
+- colocasia
+- chinahuatillo
+- malva
+- palo mulato
+- guanacaste
+- cocuite
+- chancarro
+- escobilla
+- mozote amarillo
+- hireba del sapo
+- malabar
+- berenjena macho / solanum erianthum
+- hierba del zorrillo
+- patololote / pimenta dioica
+- cardo santo
+- chancapiedra
+- cornizuelo
+- cosquelite
+- cordoncillo / piper aduncum
+- coyolillo / cyperus esculentus
