@@ -14,17 +14,17 @@ draft: false
 - colocasia
 - chinahuatillo
 - malva
-- palo mulato
-- guanacaste
-- cocuite
-- chancarro
+- _palo mulato_
+- _guanacaste_
+- _cocuite_
+- _chancarro_
 - escobilla
 - mozote amarillo
 - hireba del sapo
 - malabar
 - berenjena macho / solanum erianthum
 - hierba del zorrillo
-- patololote / pimenta dioica
+- _patololote / pimenta dioica_
 - cardo santo
 - chancapiedra
 - cornizuelo
