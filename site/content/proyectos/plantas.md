@@ -1,7 +1,9 @@
 ---
-title: Plantas
+title: Insumos medicinales
 draft: false
 ---
+
+## Plantas
 
 - maguey morado
 - lengua de suegra / espada de san jorge
@@ -14,20 +16,34 @@ draft: false
 - colocasia
 - chinahuatillo
 - malva
-- _palo mulato_
-- _guanacaste_
-- _cocuite_
-- _chancarro_
 - escobilla
 - mozote amarillo
 - hireba del sapo
 - malabar
 - berenjena macho / solanum erianthum
 - hierba del zorrillo
-- _patololote / pimenta dioica_
 - cardo santo
 - chancapiedra
 - cornizuelo
 - cosquelite
 - cordoncillo / piper aduncum
 - coyolillo / cyperus esculentus
+- chaya
+- bugambilia
+
+## Frutales y árboles
+
+- mango
+- chagalapoli
+- noni
+- guayaba
+- guanábana
+- palo mulato
+- guanacaste
+- cocuite
+- chancarro
+- patololote / pimenta dioica
+
+## Otros
+
+- baba de caracol
