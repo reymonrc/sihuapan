@@ -31,6 +31,9 @@ draft: false
 - coyolillo / cyperus esculentus
 - chaya
 - bugambilia
+- nopal
+- sábila
+- acuyo
 
 ## Frutales y árboles
 
@@ -38,10 +41,18 @@ draft: false
 - chagalapoli
 - noni
 - guayaba
+- zapote mamey
+- chico zapote
 - guanábana
+- papaya
+- guaje
+- jícara
+- xoxogo
+- carambolo
 - palo mulato
 - guanacaste
 - cocuite
+- chilpaya
 - chancarro
 - patololote / pimenta dioica
 
