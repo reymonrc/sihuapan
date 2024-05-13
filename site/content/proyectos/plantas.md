@@ -58,6 +58,7 @@ draft: false
 - chilpaya
 - chancarro
 - patololote / pimenta dioica
+- cedro
 
 ## Otros
 
