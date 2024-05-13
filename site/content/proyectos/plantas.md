@@ -32,6 +32,7 @@ draft: false
 - chaya
 - bugambilia
 - nopal
+- epazote
 - sábila
 - acuyo
 
