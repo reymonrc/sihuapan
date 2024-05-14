@@ -14,3 +14,5 @@ draft: false
 Motivados por la preservación de la abeja [melipona](https://www.gob.mx/agricultura/articulos/melipona-beecheii-la-abeja-sagrada-maya),
 especie endémica originaria de la península de Yucatán, se inicia este proyecto.
 
+[Control](https://www.reymon.mx/aws/meliponas)
+
