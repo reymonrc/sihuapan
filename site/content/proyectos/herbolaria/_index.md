@@ -7,7 +7,7 @@ description: >-
 image: /img/jicara.jpg
 intro:
   heading: >-
-    Preservacion y aprovechamiento de plantas y árboles medicinals 
+    Preservacion y aprovechamiento de plantas y árboles medicinales 
 draft: false
 ---
 
