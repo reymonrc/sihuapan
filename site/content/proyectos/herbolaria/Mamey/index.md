@@ -3,7 +3,7 @@ title: Mamey
 date: 2024-05-01T09:04:10.000Z
 description: >-
   Aprovechamiento de la semilla de mamey
-image: /proyectos/mamey/Hueso.jpeg
+image: /proyectos/herbolaria/mamey/Hueso.jpeg
 draft: false
 ---
 
