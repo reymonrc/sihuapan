@@ -51,6 +51,10 @@ draft: false
 ![dia50-2](/proyectos/Tegogolos/docs/IMG_20240518_233852764.jpg)
 ![dia50-3](/proyectos/Tegogolos/docs/IMG_20240518_233859296.jpg)
 
+- Tapas
+
+![tapas](/proyectos/Tegogolos/docs/IMG-20240510-WA0011.jpg)
+
 # Notas
 
 - [Invasores](https://enciclovida.mx/pdfs/exoticas_invasoras/Pomacea%20canaliculata.pdf)
