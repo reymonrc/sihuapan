@@ -45,6 +45,12 @@ draft: false
 ![dia4-4](/proyectos/Tegogolos/docs/IMG-20240401-WA0008.jpg)
 ![dia4-5](/proyectos/Tegogolos/docs/IMG-20240401-WA0009.jpg)
 
+- A los 50 días
+
+![dia50-1](/proyectos/Tegogolos/docs/IMG_20240518_233818390.jpg)
+![dia50-2](/proyectos/Tegogolos/docs/IMG_20240518_233852764.jpg)
+![dia50-3](/proyectos/Tegogolos/docs/IMG_20240518_233859296.jpg)
+
 # Notas
 
 - [Invasores](https://enciclovida.mx/pdfs/exoticas_invasoras/Pomacea%20canaliculata.pdf)
