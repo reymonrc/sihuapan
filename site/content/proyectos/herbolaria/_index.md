@@ -11,7 +11,7 @@ intro:
 draft: false
 ---
 
-Motivados por el aprendizaje y aprovchamiento de los recursos medicinalesr
-quer brinda la naturalez, iniciamos la conservación y uso de los mismos.
+Motivados por el aprendizaje y aprovechamiento de los recursos medicinales
+que brinda la naturaleza, iniciamos la conservación y procesamiento de los mismos.
 
 
