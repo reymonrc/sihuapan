@@ -29,7 +29,7 @@ datos24=[
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 1", "efectivo": true},
 {"fecha": "May", "salida": "2221", "entrada": "0", "concepto": "Casita: camento, cal, clavo, alambre", "efectivo": false},
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 2", "efectivo": true},
-{"fecha": "May", "salida": "0", "entrada": "5000", "concepto": "Aportación Esperanza", "efectivo": false},
-{"fecha": "May 19", "salida": "0", "entrada": "15000", "concepto": "Venta de mango Santos T 138 + 236 x $25", "efectivo": false},
+{"fecha": "May", "salida": "0", "entrada": "5000", "concepto": "Aportación Esperanza", "efectivo": true},
+{"fecha": "May 19", "salida": "0", "entrada": "15000", "concepto": "Venta de mango Santos T 138 + 236 x $25", "efectivo": true},
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 3", "efectivo": true},
 ];
