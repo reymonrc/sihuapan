@@ -50,6 +50,7 @@ draft: false
 - jícara
 - xoxogo
 - neem
+- moringa
 - ojoche
 - carambolo
 - palo mulato
