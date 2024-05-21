@@ -29,4 +29,6 @@ draft: false
 
 ## [Meliponas](proyectos/meliponas)
 
+## [Herbolaria](proyectos/herbolaria)
+
 # Otros
