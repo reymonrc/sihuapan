@@ -1,5 +1,5 @@
 ---
-title: Frensetata y poecilia
+title: Frenestata y poecilia
 date: 2024-05-17T09:04:10.000Z
 description: >-
   Introducción de mojarras
