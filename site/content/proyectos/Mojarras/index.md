@@ -7,7 +7,7 @@ image: /img/Tanque1.jpg
 draft: false
 ---
 
-Se introducen parejas de especies endémicas aprovechando el ecosistema que logrado en el _Tanque 1_ destinado a los tegogolos reproductores originarios de la laguan de Catemaco
+Se introducen parejas de especies endémicas aprovechando el ecosistema logrado en el _Tanque 1_, el cual está destinado a los tegogolos reproductores originarios de la laguan de Catemaco.
 
 ![moj-1](/proyectos/Mojarras/IMG-20240516-WA0011.jpg)
 ![moj-2](/proyectos/Mojarras/IMG-20240516-WA0012.jpg)
