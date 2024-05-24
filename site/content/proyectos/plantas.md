@@ -1,6 +1,5 @@
 ---
 title: Insumos medicinales
-date: 2024-05-08T09:04:10.000Z
 draft: false
 ---
 
