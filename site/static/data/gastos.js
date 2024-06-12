@@ -20,7 +20,7 @@ datos23=[
 ];
 datos24=[
 {"fecha": "Ene", "salida": "0", "entrada": "1000", "concepto": "Renta 1ha sandia-cocal", "efectivo": true},
-{"fecha": "Mar-May", "salida": "0", "entrada": "9000", "concepto": "Renta soltadero", "efectivo": true},
+{"fecha": "Mar-Jun", "salida": "0", "entrada": "10000", "concepto": "Renta soltadero", "efectivo": true},
 {"fecha": "Abr", "salida": "0", "entrada": "15000", "concepto": "Aportación Arturo Carrión", "efectivo": false},
 {"fecha": "Abr", "salida": "11940", "entrada": "0", "concepto": "Casita: block, cemento, cal", "efectivo": false},
 {"fecha": "Abr 27", "salida": "0", "entrada": "15330", "concepto": "Venta de mango Temix 405 + 33", "efectivo": true},
@@ -31,9 +31,11 @@ datos24=[
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 1", "efectivo": true},
 {"fecha": "May", "salida": "2221", "entrada": "0", "concepto": "Casita: camento, cal, clavo, alambre", "efectivo": false},
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 2", "efectivo": true},
-{"fecha": "May", "salida": "0", "entrada": "5000", "concepto": "Aportación Esperanza", "efectivo": true},
+{"fecha": "May", "salida": "0", "entrada": "5000", "concepto": "Aportación Esperanza casita", "efectivo": true},
 {"fecha": "May 19", "salida": "0", "entrada": "9350", "concepto": "Venta de mango Santos T 138 + 236 x $25", "efectivo": true},
 {"fecha": "May 26", "salida": "0", "entrada": "12000", "concepto": "Venta de mango Santos T 630", "efectivo": true},
 {"fecha": "May 26", "salida": "0", "entrada": "1750", "concepto": "Venta de mango Temix 70", "efectivo": true},
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 3", "efectivo": true},
+{"fecha": "Jun", "salida": "0", "entrada": "3375", "concepto": "Aportación Esperanza firme", "efectivo": false},
+{"fecha": "Jun", "salida": "3375", "entrada": "0", "concepto": "cemento firme 15 bultos", "efectivo": false},
 ];
