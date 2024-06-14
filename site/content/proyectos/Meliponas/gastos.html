@@ -58,7 +58,12 @@
       columns:[
         {type: 'text',editable: true,name:'concepto',header: 'Concepto'},
         {type:'text',editable:true,
-          name:'monto',header:'Monto',class:"text-right",
+          name:'entrada',header:'Entrada',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {type:'text',editable:true,
+          name:'salida',header:'Salida',class:"text-right",
           footer:FathGrid.SUM,
           groupFooter:FathGrid.SUM
         },
