@@ -15,3 +15,9 @@ Se inicia el sembrado de bambú como cerca viva.
 ![bam-4](/proyectos/Bambu/IMG-20240511-WA0009.jpg)
 ![bam-5](/proyectos/Bambu/IMG-20240511-WA0010.jpg)
 ![bam-6](/proyectos/Bambu/IMG-20240511-WA0011.jpg)
+
+# Tratamiento
+
+- [Tradicional](https://bamboou.com/traditional-methods-for-treating-bamboo/)
+- [Casero](https://bamboou.com/treating-bamboo-in-your-backyard/)
+
