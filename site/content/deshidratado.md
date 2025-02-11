@@ -1,5 +1,6 @@
 ---
 title: 'Deshidratado'
+subtitle: 'Tecnicas'
 date: 2025-02-11T09:02:50-07:00
 draft: false
 ---
