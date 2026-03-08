@@ -26,7 +26,7 @@ var datos24 = [
     { fecha: "Ene", salida: "0", entrada: "1000", concepto: "Renta 1ha sandia-cocal", efectivo: true },
     { fecha: "Mar-Jun", salida: "0", entrada: "10000", concepto: "Renta soltadero", efectivo: true },
     { fecha: "Abr", salida: "0", entrada: "5000", concepto: "Aportación Arturo Carrión", efectivo: false },
-    { fecha: "Tomas de agua potable", salida: "0", entrada: "0", concepto: "160", efectivo: true },
+    { fecha: "May", salida: "160", entrada: "0", concepto: "Tomas de agua potable", efectivo: true },
     { fecha: "Abr", salida: "11940", entrada: "0", concepto: "Casita: block, cemento, cal", efectivo: false },
     { fecha: "Abr 27", salida: "0", entrada: "15330", concepto: "Venta de mango Temix 405 + 33", efectivo: true },
     { fecha: "May", salida: "10000", entrada: "0", concepto: "Casita: mano de obra semana 3", efectivo: true },
@@ -44,9 +44,8 @@ var datos24 = [
     { fecha: "Jun", salida: "3375", entrada: "0", concepto: "cemento firme 15 bultos", efectivo: false },
     { fecha: "Mayo-Ago", salida: "23400", entrada: "0", concepto: "Mano de obra - campo", efectivo: true },
     { fecha: "Ago", salida: "2370", entrada: "0", concepto: "Insumos - campo", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
     { fecha: "Ene-Dic", salida: "0", entrada: "100000", concepto: "Renta Soltadero", efectivo: true },
-    { fecha: "Nov", salida: "3400", entrada: "0", concepto: "", efectivo: true },
+    { fecha: "Nov", salida: "3400", entrada: "0", concepto: "Insumos - campo", efectivo: true },
     { fecha: "Dic", salida: "5200", entrada: "0", concepto: "liquidacion trabajador", efectivo: true }
 ];
 
