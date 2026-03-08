@@ -7,9 +7,10 @@ var datos22=[
 {"fecha": "Nov", "salida": "0", "entrada": "4000", "concepto": "Renta 2has maiz-soltadero", "efectivo": true},
 {"fecha": "May-Dic", "salida": "77400", "entrada": "0", "concepto": "Mano de obra - campo", "efectivo": true},
 {"fecha": "Abr-Dic", "salida": "38000", "entrada": "0", "concepto": "Insumos - campo", "efectivo": true},
-{"fecha": "Dic", "salida": "0", "entrada": "5000", "concepto": "Aportación Arturo Carrión", "efectivo": false},
+{"fecha": "Dic", "salida": "0", "entrada": "5000", "concepto": "Aportación Arturo Carrión", "efectivo": false}
 ];
-datos23=[
+
+var datos23=[
 {"fecha": "Jun", "salida": "0", "entrada": "32000", "concepto": "Venta mango", "efectivo": true},
 {"fecha": "Ene-Dic", "salida": "0", "entrada": "34000", "concepto": "Renta soltadero", "efectivo": true},
 {"fecha": "Ene-Dic", "salida": "20000", "entrada": "0", "concepto": "Renta soltadero (debe)", "efectivo": true},
@@ -18,16 +19,16 @@ datos23=[
 {"fecha": "Nov", "salida": "0", "entrada": "4000", "concepto": "Renta 2has maiz-soltadero", "efectivo": true},
 {"fecha": "Ene-Dic", "salida": "75600", "entrada": "0", "concepto": "Mano de obra - campo", "efectivo": true},
 {"fecha": "Ene-Dic", "salida": "49000", "entrada": "0", "concepto": "Insumos - campo", "efectivo": true},
-{"fecha": "Dic", "salida": "0", "entrada": "5000", "concepto": "Aportación Arturo Carrión", "efectivo": false},
+{"fecha": "Dic", "salida": "0", "entrada": "5000", "concepto": "Aportación Arturo Carrión", "efectivo": false}
 ];
-datos24=[
+
+var datos24=[
 {"fecha": "Ene", "salida": "0", "entrada": "1000", "concepto": "Renta 1ha sandia-cocal", "efectivo": true},
 {"fecha": "Mar-Jun", "salida": "0", "entrada": "10000", "concepto": "Renta soltadero", "efectivo": true},
 {"fecha": "Abr", "salida": "0", "entrada": "5000", "concepto": "Aportación Arturo Carrión", "efectivo": false},
 {"fecha": "Abr", "salida": "11940", "entrada": "0", "concepto": "Casita: block, cemento, cal", "efectivo": false},
 {"fecha": "Abr 27", "salida": "0", "entrada": "15330", "concepto": "Venta de mango Temix 405 + 33", "efectivo": true},
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 3", "efectivo": true},
-{"fecha": "Ene-Abr", "salida": "23400", "entrada": "0", "concepto": "Mano de obra - campo", "efectivo": true},
 {"fecha": "May", "salida": "0", "entrada": "15000", "concepto": "Aportación Arturo Carrión", "efectivo": false},
 {"fecha": "May", "salida": "3200", "entrada": "0", "concepto": "Casita: piedra, arena", "efectivo": false},
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 1", "efectivo": true},
@@ -40,4 +41,36 @@ datos24=[
 {"fecha": "May", "salida": "10000", "entrada": "0", "concepto": "Casita: mano de obra semana 3", "efectivo": true},
 {"fecha": "Jun", "salida": "0", "entrada": "3375", "concepto": "Aportación Esperanza firme", "efectivo": false},
 {"fecha": "Jun", "salida": "3375", "entrada": "0", "concepto": "cemento firme 15 bultos", "efectivo": false},
+{"fecha": "Mayo-Ago", "salida": "23400", "entrada": "0", "concepto": "Mano de obra - campo", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "Sep-Dic", "salida": "23400", "entrada": "0", "concepto": "Mano de obra - campo", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "dic", "salida": "0", "entrada": "0", "concepto": "liquidacion trabajador", "efectivo": true},
 ];
+
+var datos25=[
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "Prediales 2025", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "Dos tomas de agua potable", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "lindero a los carriles - material", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "lindero a los carriles - material", "efectivo": true},
+{"fecha": "Jun", "salida": "0", "entrada": "40000", "concepto": "Renta 2has tabaco-soltadero", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "Ago", "salida": "0", "entrada": "2000", "concepto": "Renta 2has tabaco-soltadero", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+    ];
+
+var datos26=[
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+{"fecha": "", "salida": "0", "entrada": "0", "concepto": "", "efectivo": true},
+    ];
+

@@ -59,7 +59,7 @@
     <h2>2024</h2>
 
     <div style="display: flex;">
-      <div style="flex-grow: 1">Registros por página: <select id="selSize3" onchange="t2.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+      <div style="flex-grow: 1">Registros por página: <select id="selSize3" onchange="t3.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
     </div>
 
     
@@ -67,7 +67,33 @@
       <thead class="thead-light"></thead>
       <tbody></tbody>
     </table>
-  </div>
+
+        <h2>2025</h2>
+
+    <div style="display: flex;">
+      <div style="flex-grow: 1">Registros por página: <select id="selSize4" onchange="t4.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+    </div>
+
+    
+    <table  id="table4" class="table table-hover table-bordered ">
+      <thead class="thead-light"></thead>
+      <tbody></tbody>
+    </table>
+
+        
+        <h2>2026</h2>
+
+    <div style="display: flex;">
+      <div style="flex-grow: 1">Registros por página: <select id="selSize5" onchange="t5.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+    </div>
+
+    
+    <table  id="table5" class="table table-hover table-bordered ">
+      <thead class="thead-light"></thead>
+      <tbody></tbody>
+    </table>
+
+    </div>
   
   <script src="data/gastos.js"></script>
     <script>
@@ -182,6 +208,80 @@
     var objConfig3=localStorage.getItem("t3_config");
     if(objConfig3!==null) t3.loadConfig(objConfig);
     document.querySelector("#selSize3").value=t3.getPageSize();
+
+    var t3=FathGrid("table4",{
+      size:20,
+      editable:true,
+      filterable:true,
+      sortable:true,
+      showFooter:true,
+      onChange:function(item,col,old,value){console.log("onChange:",item.id,col,old,value);return value==''?false:true;},
+      rowClass:function(dr,idx){return dr.id==3?'table-info':(dr.id==9?'table-warning':'')},
+      inputClass:'form-control',
+      selectColumns:true,
+      columns:[
+        {
+          name:'fecha',header:'Fecha',
+          type:'text'
+        },
+        {type: 'text',editable: true,name:'concepto',header: 'Concepto'},
+        {type:'text',editable:true,
+          name:'salida',header:'Salida',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {type:'text',editable:true,
+          name:'entrada',header:'Entrada',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {name:'efectivo',type:'checkbox',header:'Efectivo',visible:false,filter:[{value:false,name:'No'},{value:true,name:'Sí'}]}, //invisible grouping column
+      ],
+      data:datos25,
+      showGraph: false,
+    });
+    
+    window.addEventListener('beforeunload',function(){ localStorage.setItem("t4_config",t4.saveConfig())});
+    var objConfig4=localStorage.getItem("t4_config");
+    if(objConfig4!==null) t4.loadConfig(objConfig);
+    document.querySelector("#selSize4").value=t4.getPageSize();
+
+    var t5=FathGrid("table5",{
+      size:20,
+      editable:true,
+      filterable:true,
+      sortable:true,
+      showFooter:true,
+      onChange:function(item,col,old,value){console.log("onChange:",item.id,col,old,value);return value==''?false:true;},
+      rowClass:function(dr,idx){return dr.id==3?'table-info':(dr.id==9?'table-warning':'')},
+      inputClass:'form-control',
+      selectColumns:true,
+      columns:[
+        {
+          name:'fecha',header:'Fecha',
+          type:'text'
+        },
+        {type: 'text',editable: true,name:'concepto',header: 'Concepto'},
+        {type:'text',editable:true,
+          name:'salida',header:'Salida',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {type:'text',editable:true,
+          name:'entrada',header:'Entrada',class:"text-right",
+          footer:FathGrid.SUM,
+          groupFooter:FathGrid.SUM
+        },
+        {name:'efectivo',type:'checkbox',header:'Efectivo',visible:false,filter:[{value:false,name:'No'},{value:true,name:'Sí'}]}, //invisible grouping column
+      ],
+      data:datos26,
+      showGraph: false,
+    });
+    
+    window.addEventListener('beforeunload',function(){ localStorage.setItem("t5_config",t5.saveConfig())});
+    var objConfig5=localStorage.getItem("t5_config");
+    if(objConfig5!==null) t5.loadConfig(objConfig);
+    document.querySelector("#selSize5").value=t5.getPageSize();
 
     </script>
   </body>
