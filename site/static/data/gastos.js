@@ -41,39 +41,40 @@ var datos24 = [
     { fecha: "May 26", salida: "0", entrada: "1750", concepto: "Venta de mango Temix 70", efectivo: true },
     { fecha: "May", salida: "10000", entrada: "0", concepto: "Casita: mano de obra semana 3", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "3375", concepto: "Aportación Esperanza firme", efectivo: false },
-    { fecha: "Jun", salida: "3375", entrada: "0", concepto: "cemento firme 15 bultos", efectivo: false },
+    { fecha: "Jun", salida: "3375", entrada: "0", concepto: "Firme casita 15 bultos", efectivo: false },
     { fecha: "Mayo-Ago", salida: "23400", entrada: "0", concepto: "Mano de obra - campo", efectivo: true },
     { fecha: "Ago", salida: "2370", entrada: "0", concepto: "Insumos - campo", efectivo: true },
-    { fecha: "Ene-Dic", salida: "0", entrada: "10000", concepto: "Renta Soltadero", efectivo: true },
+    { fecha: "Jul-Dic", salida: "0", entrada: "12000", concepto: "Renta Soltadero", efectivo: true },
     { fecha: "Nov", salida: "3400", entrada: "0", concepto: "Insumos - campo", efectivo: true },
-    { fecha: "Dic", salida: "5200", entrada: "0", concepto: "liquidacion trabajador", efectivo: true }
+    { fecha: "Dic", salida: "5200", entrada: "0", concepto: "Liquidacion trabajador", efectivo: true }
 ];
 
 var datos25 = [
     { fecha: "Ene", salida: "0", entrada: "0", concepto: "Prediales 2025", efectivo: true },
     { fecha: "Ene", salida: "60", entrada: "0", concepto: "Dos tomas de agua potable", efectivo: true },
-    { fecha: "Ene", salida: "0", entrada: "0", concepto: "Lindero a los carriles - mano de obra", efectivo: true },
-    { fecha: "Ene", salida: "0", entrada: "0", concepto: "Lindero a los carriles - material", efectivo: true },
+    { fecha: "Ene", salida: "6000", entrada: "0", concepto: "Lindero a los carriles - mano de obra", efectivo: true },
+    { fecha: "Ene", salida: "6000", entrada: "0", concepto: "Lindero a los carriles - mano de obra", efectivo: true },
+    { fecha: "Ene", salida: "5200", entrada: "0", concepto: "Lindero a los carriles - material", efectivo: true },
     { fecha: "May", salida: "0", entrada: "0", concepto: "Perimetro finca - mano de obra", efectivo: true },
-    { fecha: "May", salida: "0", entrada: "0", concepto: "Perimetro finca - material", efectivo: true },
+    { fecha: "May", salida: "2300", entrada: "0", concepto: "Perimetro finca - material", efectivo: true },
     { fecha: "May", salida: "0", entrada: "31000", concepto: "Cosecha de mango - Temix", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "40000", concepto: "Renta 2has tabaco-soltadero", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "1300", concepto: "Repepena mango - ", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "0", concepto: "Ampliación casita - Material", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "0", concepto: "Ampliación casita - Mano de obra", efectivo: true },
-    { fecha: "Renta soltadero", salida: "0", entrada: "12000", concepto: "", efectivo: true },
+    { fecha: "Renta soltadero", salida: "0", entrada: "12000", concepto: "Renta Soltadero", efectivo: true },
     { fecha: "Ago", salida: "0", entrada: "2000", concepto: "Renta 1ha maiz - soltadero", efectivo: true },
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
+    { fecha: "Dic", salida: "0", entrada: "0", concepto: "Estantes", efectivo: true },
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true }
 ];
 
 var datos26 = [
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
+    { fecha: "Ene", salida: "0", entrada: "0", concepto: "Estantes", efectivo: true },
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true }
+    { fecha: "Marzo", salida: "0", entrada: "0", concepto: "", efectivo: true }
 ];
