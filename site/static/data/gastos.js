@@ -50,8 +50,8 @@ var datos24 = [
 ];
 
 var datos25 = [
-    { fecha: "Ene", salida: "0", entrada: "0", concepto: "Prediales 2025", efectivo: true },
-    { fecha: "Ene", salida: "60", entrada: "0", concepto: "Dos tomas de agua potable", efectivo: true },
+    { fecha: "Ene", salida: "863", entrada: "0", concepto: "Prediales 2025", efectivo: true },
+    { fecha: "Ene", salida: "160", entrada: "0", concepto: "Dos tomas de agua potable", efectivo: true },
     { fecha: "Ene", salida: "6000", entrada: "0", concepto: "Lindero a los carriles - mano de obra", efectivo: true },
     { fecha: "Ene", salida: "6000", entrada: "0", concepto: "Lindero a los carriles - mano de obra", efectivo: true },
     { fecha: "Ene", salida: "5200", entrada: "0", concepto: "Lindero a los carriles - material", efectivo: true },
@@ -72,9 +72,9 @@ var datos25 = [
 ];
 
 var datos26 = [
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
+    { fecha: "", salida: "862", entrada: "0", concepto: "Prediales", efectivo: true },
     { fecha: "Ene", salida: "0", entrada: "0", concepto: "Estantes", efectivo: true },
+    { fecha: "Mar", salida: "0", entrada: "0", concepto: "Dos tomas de agua", efectivo: true },
     { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
-    { fecha: "Marzo", salida: "0", entrada: "0", concepto: "", efectivo: true }
+    { fecha: "Mar", salida: "0", entrada: "0", concepto: "", efectivo: true }
 ];
