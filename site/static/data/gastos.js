@@ -62,19 +62,19 @@ var datos25 = [
     { fecha: "Jun", salida: "0", entrada: "1300", concepto: "Repepena mango - ", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "0", concepto: "Ampliación casita - Material", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "0", concepto: "Ampliación casita - Mano de obra", efectivo: true },
-    { fecha: "Renta soltadero", salida: "0", entrada: "12000", concepto: "Renta Soltadero", efectivo: true },
+    { fecha: "Jum", salida: "0", entrada: "12000", concepto: "Renta Soltadero", efectivo: true },
     { fecha: "Ago", salida: "0", entrada: "2000", concepto: "Renta 1ha maiz - soltadero", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
+    { fecha: "Nov", salida: "0", entrada: "0", concepto: "Maya carretera a Caleria - Mano de obra", efectivo: true },
+    { fecha: "Nov", salida: "0", entrada: "0", concepto: "Maya carretera a Caleria - Material", efectivo: true },
     { fecha: "Dic", salida: "0", entrada: "0", concepto: "Estantes", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true }
+    { fecha: "Dic", salida: "0", entrada: "12000", concepto: "Renta soltadero", efectivo: true },
+    { fecha: "Jul-Dic", salida: "65000", entrada: "0", concepto: "Pago familia soltadero", efectivo: true }
 ];
 
 var datos26 = [
-    { fecha: "", salida: "862", entrada: "0", concepto: "Prediales", efectivo: true },
-    { fecha: "Ene", salida: "0", entrada: "0", concepto: "Estantes", efectivo: true },
-    { fecha: "Mar", salida: "0", entrada: "0", concepto: "Dos tomas de agua", efectivo: true },
-    { fecha: "", salida: "0", entrada: "0", concepto: "", efectivo: true },
+    { fecha: "Ene", salida: "862", entrada: "0", concepto: "Prediales", efectivo: true },
+    { fecha: "Ene", salida: "2500", entrada: "0", concepto: "Estantes", efectivo: true },
+    { fecha: "Feb", salida: "0", entrada: "0", concepto: "Dos tomas de agua", efectivo: true },
+    { fecha: "Ene-Feb", salida: "20000", entrada: "0", concepto: "Pago familia soltadero", efectivo: true },
     { fecha: "Mar", salida: "0", entrada: "0", concepto: "", efectivo: true }
 ];
