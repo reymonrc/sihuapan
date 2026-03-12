@@ -46,6 +46,7 @@ var datos24 = [
     { fecha: "Ago", salida: "2370", entrada: "0", concepto: "Insumos - campo", efectivo: true },
     { fecha: "Jul-Dic", salida: "0", entrada: "12000", concepto: "Renta Soltadero", efectivo: true },
     { fecha: "Nov", salida: "3400", entrada: "0", concepto: "Insumos - campo", efectivo: true },
+    { fecha: "Sep-Dic", salida: "18600", entrada: "0", concepto: "Mano de obra - campo", efectivo: true },
     { fecha: "Dic", salida: "5200", entrada: "0", concepto: "Liquidacion trabajador", efectivo: true }
 ];
 
@@ -68,13 +69,16 @@ var datos25 = [
     { fecha: "Nov", salida: "0", entrada: "0", concepto: "Maya carretera a Caleria - Material", efectivo: true },
     { fecha: "Dic", salida: "0", entrada: "0", concepto: "Estantes", efectivo: true },
     { fecha: "Dic", salida: "0", entrada: "12000", concepto: "Renta soltadero", efectivo: true },
+    { fecha: "Dic", salida: "0", entrada: "2000", concepto: "Coperación local memelas", efectivo: true },
     { fecha: "Jul-Dic", salida: "65000", entrada: "0", concepto: "Pago familia soltadero", efectivo: true }
 ];
 
 var datos26 = [
     { fecha: "Ene", salida: "862", entrada: "0", concepto: "Prediales", efectivo: true },
     { fecha: "Ene", salida: "2500", entrada: "0", concepto: "Estantes", efectivo: true },
+    { fecha: "Ene", salida: "0", entrada: "2000", concepto: "Coperación local memelas", efectivo: true },
     { fecha: "Feb", salida: "0", entrada: "0", concepto: "Dos tomas de agua", efectivo: true },
     { fecha: "Ene-Feb", salida: "20000", entrada: "0", concepto: "Pago familia soltadero", efectivo: true },
+    { fecha: "Feb", salida: "0", entrada: "2000", concepto: "Coperación local memelas", efectivo: true },
     { fecha: "Mar", salida: "0", entrada: "0", concepto: "", efectivo: true }
 ];
