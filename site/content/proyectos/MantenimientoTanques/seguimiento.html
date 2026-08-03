@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Seguimiento de mantenimiento de tanques</title>
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="/FathGrid.js" ></script>
+    <style>
+      .fathgrid-wrapper .fathgrid th.sorted.text-right::after,
+      .fathgrid-wrapper .fathgrid th.sorted-desc.text-right::after {left:0.4em;right:auto;}
+      .parametro-card { border-left: 4px solid #28a745; padding-left: 1rem; margin-bottom: 1rem; }
+      .parametro-card.alerta { border-left-color: #dc3545; }
+      .parametro-card.advertencia { border-left-color: #ffc107; }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>Mantenimiento de Tanques</h1>
+      <p class="text-muted">Registro de actividades de mantenimiento, parámetros de calidad del agua y costos asociados.</p>
+
+      <div class="row mb-3">
+        <div class="col-md-3">
+          <div class="card parametro-card">
+            <div class="card-body">
+              <h5 class="card-title">pH promedio</h5>
+              <p class="card-text display-4" id="ph-promedio">—</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card parametro-card">
+            <div class="card-body">
+              <h5 class="card-title">Temp. promedio (°C)</h5>
+              <p class="card-text display-4" id="temp-promedio">—</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card parametro-card">
+            <div class="card-body">
+              <h5 class="card-title">O₂ promedio (mg/L)</h5>
+              <p class="card-text display-4" id="oxigeno-promedio">—</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card parametro-card alerta">
+            <div class="card-body">
+              <h5 class="card-title">Costo acumulado</h5>
+              <p class="card-text display-4" id="costo-total">—</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: flex;">
+        <div style="flex-grow: 1">Registros por página: <select id="selSize" onchange="t1.setPageSize(this.value)"><option value="5">5</option><option selected value="10">10</option><option value="20">20</option><option value="50">50</option><option value="0">All</option></select></div>
+      </div>
+
+      <table id="table1" class="table table-hover table-bordered">
+        <thead class="thead-light"></thead>
+        <tbody></tbody>
+      </table>
+
+    </div>
+
+    <script src="/data/mantenimiento.js"></script>
+    <script>
+      var t1 = FathGrid("table1", {
+        size: 10,
+        editable: true,
+        filterable: true,
+        sortable: true,
+        showFooter: true,
+        onChange: function(item, col, old, value) { console.log("onChange:", item.id, col, old, value); return value == '' ? false : true; },
+        rowClass: function(dr, idx) {
+          if (dr.tipo === 'Reparación') return 'table-warning';
+          if (parseFloat(dr.ph) < 6.5 || parseFloat(dr.ph) > 8.5) return 'table-danger';
+          return '';
+        },
+        inputClass: 'form-control',
+        selectColumns: true,
+        columns: [
+          { type: 'text', editable: true, name: 'fecha', header: 'Fecha' },
+          { type: 'text', editable: true, name: 'tanque', header: 'Tanque', filter: [{ value: 'Tanque 1', name: 'Tanque 1' }, { value: 'Tanque 2', name: 'Tanque 2' }, { value: 'Tanque 3', name: 'Tanque 3' }] },
+          { type: 'text', editable: true, name: 'tipo', header: 'Tipo', filter: [{ value: 'Limpieza', name: 'Limpieza' }, { value: 'Reparación', name: 'Reparación' }, { value: 'Cambio de agua', name: 'Cambio de agua' }, { value: 'Revisión', name: 'Revisión' }] },
+          { type: 'text', editable: true, name: 'ph', header: 'pH', class: "text-right" },
+          { type: 'text', editable: true, name: 'temperatura', header: 'Temp. (°C)', class: "text-right" },
+          { type: 'text', editable: true, name: 'oxigeno', header: 'O₂ (mg/L)', class: "text-right" },
+          { type: 'text', editable: true, name: 'observaciones', header: 'Observaciones' },
+          { type: 'text', editable: true, name: 'costo', header: 'Costo ($)', class: "text-right", footer: FathGrid.SUM, groupFooter: FathGrid.SUM },
+        ],
+        data: datosmantenimiento,
+        showGraph: false,
+      });
+
+      function actualizarResumen() {
+        var data = t1.getData ? t1.getData() : datosmantenimiento;
+        if (!data || data.length === 0) return;
+        var sumPh = 0, sumTemp = 0, sumOx = 0, sumCosto = 0, count = 0;
+        data.forEach(function(r) {
+          var ph = parseFloat(r.ph);
+          var temp = parseFloat(r.temperatura);
+          var ox = parseFloat(r.oxigeno);
+          var costo = parseFloat(r.costo) || 0;
+          if (!isNaN(ph)) { sumPh += ph; }
+          if (!isNaN(temp)) { sumTemp += temp; }
+          if (!isNaN(ox)) { sumOx += ox; }
+          sumCosto += costo;
+          count++;
+        });
+        if (count > 0) {
+          document.getElementById('ph-promedio').textContent = (sumPh / count).toFixed(2);
+          document.getElementById('temp-promedio').textContent = (sumTemp / count).toFixed(1);
+          document.getElementById('oxigeno-promedio').textContent = (sumOx / count).toFixed(2);
+        }
+        document.getElementById('costo-total').textContent = '$' + sumCosto.toLocaleString();
+      }
+
+      actualizarResumen();
+
+      window.addEventListener('beforeunload', function() { localStorage.setItem("mt_config", t1.saveConfig()) });
+      var objConfig = localStorage.getItem("mt_config");
+      if (objConfig !== null) t1.loadConfig(objConfig);
+      document.querySelector("#selSize").value = t1.getPageSize();
+    </script>
+  </body>
+</html>
