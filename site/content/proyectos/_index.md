@@ -31,8 +31,4 @@ draft: false
 
 ## [Herbolaria](proyectos/herbolaria)
 
-## [Mantenimiento de Tanques](proyectos/mantenimientotanques)
-
-## [Herbolaria](proyectos/herbolaria)
-
 # Otros
