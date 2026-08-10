@@ -92,5 +92,6 @@ var datos26 = [
     { fecha: "May", salida: "0", entrada: "30000", concepto: "Cosecha de mango - Temix", efectivo: true },
     { fecha: "Ene-Jun", salida: "65000", entrada: "0", concepto: "Pago familia soltadero", efectivo: true },
     { fecha: "Jun-Jul", salida: "0", entrada: "6000", concepto: "Renta trailer carga de mango", efectivo: true },
-    { fecha: "Jun", salida: "0", entrada: "2000", concepto: "Coperación local memelas", efectivo: true }
+    { fecha: "Jun", salida: "0", entrada: "2000", concepto: "Coperación local memelas", efectivo: true },
+    { fecha: "Ago", salida: "0", entrada: "5000", concepto: "Renta soltadero", efectivo: true }
 ];

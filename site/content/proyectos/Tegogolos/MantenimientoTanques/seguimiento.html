@@ -54,6 +54,14 @@
             </div>
           </div>
         </div>
+        <div class="col-md-3">
+          <div class="card parametro-card alerta">
+            <div class="card-body">
+              <h5 class="card-title">Conteo de reproductores</h5>
+              <p class="card-text display-4" id="conteo-total">—</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div style="display: flex;">
@@ -91,6 +99,7 @@
           { type: 'text', editable: true, name: 'temperatura', header: 'Temp. (°C)', class: "text-right" },
           { type: 'text', editable: true, name: 'oxigeno', header: 'O₂ (mg/L)', class: "text-right" },
           { type: 'text', editable: true, name: 'observaciones', header: 'Observaciones' },
+          { type: 'text', editable: true, name: 'conteo', header: 'Conteo' },
           { type: 'text', editable: true, name: 'costo', header: 'Costo ($)', class: "text-right", footer: FathGrid.SUM, groupFooter: FathGrid.SUM },
         ],
         data: datosmantenimiento,
@@ -100,15 +109,17 @@
       function actualizarResumen() {
         var data = t1.getData ? t1.getData() : datosmantenimiento;
         if (!data || data.length === 0) return;
-        var sumPh = 0, sumTemp = 0, sumOx = 0, sumCosto = 0, count = 0;
+        var sumPh = 0, sumTemp = 0, sumOx = 0, sumCosto = 0, sumConteo = 0, count = 0;
         data.forEach(function(r) {
           var ph = parseFloat(r.ph);
           var temp = parseFloat(r.temperatura);
           var ox = parseFloat(r.oxigeno);
+          var conteo = parseFloat(r.conteo) || 0 ;
           var costo = parseFloat(r.costo) || 0;
           if (!isNaN(ph)) { sumPh += ph; }
           if (!isNaN(temp)) { sumTemp += temp; }
           if (!isNaN(ox)) { sumOx += ox; }
+          sumConteo += conteo;
           sumCosto += costo;
           count++;
         });
@@ -118,6 +129,7 @@
           document.getElementById('oxigeno-promedio').textContent = (sumOx / count).toFixed(2);
         }
         document.getElementById('costo-total').textContent = '$' + sumCosto.toLocaleString();
+        document.getElementById('conteo-total').textContent = sumConteo.toLocaleString();
       }
 
       actualizarResumen();
