@@ -20,13 +20,13 @@ draft: false
 
 El mantenimiento periódico de los tanques es fundamental para garantizar la salud de los organismos acuáticos y la calidad del agua. Este proyecto documenta todas las actividades de mantenimiento, monitoreo de parámetros y reparaciones realizadas en los tanques de producción.
 
-[Seguimiento](/proyectos/mantenimientotanques/seguimiento)
+[Seguimiento](/proyectos/Tegogolos/mantenimientotanques/seguimiento)
 
 ## Tanques en operación
 
 - **Tanque 1** — Reproductores de tegogolo y mojarras endémicas
-- **Tanque 2** — Cría juvenil
-- **Tanque 3** — Engorda
+- **Tanque 2** — Reproductores flagelata
+- **Tanque 3** — Cría juvenil
 
 ## Actividades principales
 
