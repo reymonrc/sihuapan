@@ -83,7 +83,7 @@
         filterable: true,
         sortable: true,
         showFooter: true,
-        onChange: function(item, col, old, value) { console.log("onChange:", item.id, col, old, value); return value == '' ? false : true; },
+        onChange: function(item, col, old, value) { console.log("onChange:", item.id, col, old, value); return value === '' ? false : true; },
         rowClass: function(dr, idx) {
           if (dr.tipo === 'Reparación') return 'table-warning';
           if (parseFloat(dr.ph) < 6.5 || parseFloat(dr.ph) > 8.5) return 'table-danger';
@@ -134,7 +134,7 @@
 
       actualizarResumen();
 
-      window.addEventListener('beforeunload', function() { localStorage.setItem("mt_config", t1.saveConfig()) });
+      window.addEventListener('beforeunload', function() { localStorage.setItem("mt_config", t1.saveConfig()); });
       var objConfig = localStorage.getItem("mt_config");
       if (objConfig !== null) t1.loadConfig(objConfig);
       document.querySelector("#selSize").value = t1.getPageSize();

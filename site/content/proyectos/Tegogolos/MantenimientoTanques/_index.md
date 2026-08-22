@@ -18,7 +18,8 @@ cola:
 draft: false
 ---
 
-El mantenimiento periódico de los tanques es fundamental para garantizar la salud de los organismos acuáticos y la calidad del agua. Este proyecto documenta todas las actividades de mantenimiento, monitoreo de parámetros y reparaciones realizadas en los tanques de producción.
+El mantenimiento periódico de los tanques es fundamental para garantizar la salud de los organismos acuáticos y la calidad del agua.
+Este proyecto documenta las actividades de mantenimiento, monitoreo de parámetros y reparaciones realizadas en los tanques.
 
 [Seguimiento](/proyectos/Tegogolos/mantenimientotanques/seguimiento)
 
