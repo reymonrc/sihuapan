@@ -94,5 +94,6 @@ var datos26 = [
     { fecha: "Jun-Jul", salida: "0", entrada: "6000", concepto: "Renta trailer carga de mango", efectivo: true },
     { fecha: "Jun", salida: "0", entrada: "2000", concepto: "Coperación local memelas", efectivo: true },
     { fecha: "Jul", salida: "0", entrada: "23182", concepto: "Coperación ACRC", efectivo: true },
-    { fecha: "Ago", salida: "0", entrada: "5000", concepto: "Renta soltadero", efectivo: true }
+    { fecha: "Ago", salida: "0", entrada: "5000", concepto: "Renta soltadero", efectivo: true },
+    { fecha: "Sep", salida: "0", entrada: "6000", concepto: "Renta soltadero", efectivo: true }
 ];
