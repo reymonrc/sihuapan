@@ -1,193 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Phoenix Live Preview Loader...</title>
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none; /* Removes the default border around an iframe */
-        }
-    </style>
-    <script>
-        const PHCODE_LIVE_PREVIEW_QUERY_PARAM = "phcodeLivePreview";
-        const pageLoaderID = crypto.randomUUID();
-        let previewURL;
-        let isLoggingEnabled;
-
-        /**
-         *
-         * @param metadata {Object} Max size can be 4GB
-         * @param bufferData {ArrayBuffer} [optional]
-         * @return {ArrayBuffer}
-         * @private
-         */
-        function mergeMetadataAndArrayBuffer(metadata, bufferData) {
-            if (bufferData instanceof ArrayBuffer) {
-                metadata.hasBufferData = true;
-            }
-            bufferData = bufferData || new ArrayBuffer(0);
-            if (typeof metadata !== 'object') {
-                throw new Error("metadata should be an object, but was " + typeof metadata);
-            }
-            if (!(bufferData instanceof ArrayBuffer)) {
-                throw new Error("Expected bufferData to be an instance of ArrayBuffer, but was " + typeof bufferData);
-            }
-
-            const metadataString = JSON.stringify(metadata);
-            const metadataUint8Array = new TextEncoder().encode(metadataString);
-            const metadataBuffer = metadataUint8Array.buffer;
-            const sizePrefixLength = 4; // 4 bytes for a 32-bit integer
-
-            if (metadataBuffer.byteLength > 4294000000) {
-                throw new Error("metadata too large. Should be below 4,294MB, but was " + metadataBuffer.byteLength);
-            }
-
-            const concatenatedBuffer = new ArrayBuffer(sizePrefixLength + metadataBuffer.byteLength + bufferData.byteLength);
-            const concatenatedUint8Array = new Uint8Array(concatenatedBuffer);
-
-            // Write the length of metadataBuffer as a 32-bit integer
-            new DataView(concatenatedBuffer).setUint32(0, metadataBuffer.byteLength, true);
-
-            // Copy the metadataUint8Array and bufferData (if provided) to the concatenatedUint8Array
-            concatenatedUint8Array.set(metadataUint8Array, sizePrefixLength);
-            if (bufferData.byteLength > 0) {
-                concatenatedUint8Array.set(new Uint8Array(bufferData), sizePrefixLength + metadataBuffer.byteLength);
-            }
-
-            return concatenatedBuffer;
-        }
-
-        function splitMetadataAndBuffer(concatenatedBuffer) {
-            if(!(concatenatedBuffer instanceof ArrayBuffer)){
-                throw new Error("Expected ArrayBuffer message from websocket");
-            }
-            const sizePrefixLength = 4;
-            const buffer1Length = new DataView(concatenatedBuffer).getUint32(0, true); // Little endian
-
-            const buffer1 = concatenatedBuffer.slice(sizePrefixLength, sizePrefixLength + buffer1Length);
-            const metadata = JSON.parse(new TextDecoder().decode(buffer1));
-            let buffer2;
-            if (concatenatedBuffer.byteLength > sizePrefixLength + buffer1Length) {
-                buffer2 = concatenatedBuffer.slice(sizePrefixLength + buffer1Length);
-            }
-            if(!buffer2 && metadata.hasBufferData) {
-                // This happens if the sender is sending 0 length buffer. So we have to create an empty buffer here
-                buffer2 = new ArrayBuffer(0);
-            }
-
-            return {
-                metadata,
-                bufferData: buffer2
-            };
-        }
-
-        function extractFilename(url) {
-            // Remove any URL parameters or hash tags
-            url = url.split('#')[0].split('?')[0];
-
-            // Extract the filename
-            const lastSlashIndex = url.lastIndexOf('/');
-            const filename = lastSlashIndex !== -1 ? url.substring(lastSlashIndex + 1) : url;
-
-            return filename;
-        }
-
-        function setupNavigationWatcher(wssEndpoint) {
-            function _debugLog(...args) {
-                if(isLoggingEnabled) {
-                    console.log(...args);
-                }
-            }
-
-            _debugLog("navigation websocket url: ", wssEndpoint);
-            let ws = new WebSocket(wssEndpoint);
-            ws.binaryType = 'arraybuffer';
-            ws.addEventListener("open", () =>{
-                _debugLog("navigation websocket opened", wssEndpoint);
-                ws.send(mergeMetadataAndArrayBuffer({
-                    type: 'CHANNEL_TYPE',
-                    channelName: 'navigationChannel',
-                    pageLoaderID: pageLoaderID
-                }));
-                setInterval(()=>{
-                    // send page loader heartbeat
-                    ws.send(mergeMetadataAndArrayBuffer({
-                        type: 'TAB_LOADER_ONLINE',
-                        pageLoaderID: pageLoaderID,
-                        url: previewURL
-                    }));
-                }, 3000);
-            });
-
-            ws.addEventListener('message', function (event) {
-                const message = event.data;
-                const {metadata} = splitMetadataAndBuffer(message);
-                _debugLog("Live Preview socket channel: Browser received event from Phoenix: ", metadata);
-                const type = metadata.type;
-                switch (type) {
-                    case "REDIRECT_PAGE":
-                        previewURL = metadata.URL;
-                        const processURL = new URL(previewURL);
-                        if(processURL.searchParams.get(PHCODE_LIVE_PREVIEW_QUERY_PARAM) === "true"){
-                            // this is an html live preview directly controlled by phcode that has inbuilt navigator.
-                            location.href = previewURL;
-                            return;
-                        }
-                        _debugLog("Loading page: ", previewURL);
-                        if(metadata.force || document.getElementById("previewFrame").src !== previewURL) {
-                            document.getElementById("previewFrame").src = previewURL;
-                            document.title = extractFilename(previewURL);
-                        }
-                        return;
-                    case "PROJECT_SWITCH":
-                        document.getElementById("previewFrame").src = 'phoenix-splash/no-preview.html';
-                        document.title = "no-preview.html";
-                        return;
-                    case 'TAB_LOADER_ONLINE': return; // loop-back message do nothing, this is for phoenix ot process.
-                    default:
-                        console.error("Unknown live preivew navigation message received!: ", metadata);
-                }
-            });
-
-            ws.addEventListener('error', function (event) {
-                console.error("navigation websocket error event: ", event);
-            });
-
-            ws.addEventListener('close', function () {
-                _debugLog("navigation websocket closed");
-            });
-        }
-
-        function navigateToInitialURL() {
-            const queryParams = new URLSearchParams(window.location.search);
-            const initialURL = queryParams.get('initialURL');
-            const livePreviewCommURL = queryParams.get('livePreviewCommURL');
-            isLoggingEnabled = (queryParams.get('isLoggingEnabled') === 'true');
-
-            if(!livePreviewCommURL || !initialURL){
-                console.error("Expected required query strings: livePreviewCommURL, initialURL");
-                return;
-            }
-            setupNavigationWatcher(livePreviewCommURL);
-            previewURL = decodeURIComponent(initialURL);
-            document.getElementById("previewFrame").src = previewURL;
-            document.title = extractFilename(previewURL);
-        }
-
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miel Artesanal · Lista de Precios</title>
+  <!-- Twitter Bootstrap 5 (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <style>
+    body {
+      min-height: 100vh;
+      background: url("fondo-miel.png") no-repeat center center fixed;
+      background-size: cover;
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+    /* Velo oscuro para que el texto sea legible */
+    .overlay {
+      min-height: 100vh;
+      background: rgba(30, 18, 4, 0.55);
+    }
+    .titulo {
+      color: #ffe9b3;
+      text-shadow: 0 2px 8px rgba(0,0,0,.6);
+      letter-spacing: 1px;
+    }
+    .subtitulo {
+      color: #f7d98b;
+    }
+    .card-precio {
+      background: rgba(255, 251, 240, 0.96);
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .card-precio:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 32px rgba(0,0,0,.45);
+    }
+    .card-precio .precio {
+      color: #b8860b;
+      font-weight: 700;
+    }
+    .badge-tipo {
+      background-color: #f0b429;
+      color: #3d2800;
+    }
+    .tabla-precios {
+      background: rgba(255, 251, 240, 0.96);
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+    }
+    .tabla-precios thead {
+      background-color: #8a5a00;
+      color: #fff8e1;
+    }
+    .footer-miel {
+      color: #ffe9b3;
+    }
+    /* Formulario de pedidos */
+    .card-pedido {
+      background: rgba(255, 251, 240, 0.96);
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+    }
+    .card-pedido .form-control:focus,
+    .card-pedido .form-select:focus {
+      border-color: #d19a00;
+      box-shadow: 0 0 0 0.25rem rgba(209, 154, 0, 0.25);
+    }
+    .btn-whatsapp {
+      background-color: #25d366;
+      border-color: #25d366;
+      color: #fff;
+      font-weight: 600;
+    }
+    .btn-whatsapp:hover, .btn-whatsapp:focus {
+      background-color: #1eb85a;
+      border-color: #1eb85a;
+      color: #fff;
+    }
+  </style>
 </head>
-<body onload="navigateToInitialURL()">
-    <iframe id="previewFrame"
-            title="live preview"
-            sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-forms allow-modals allow-pointer-lock allow-downloads">
-    </iframe>
+<body>
+  <div class="overlay d-flex flex-column">
+
+    <!-- Encabezado -->
+    <header class="text-center pt-5 pb-3">
+      <h1 class="display-4 fw-bold titulo"><i class="bi bi-hexagon-fill"></i> Miel Artesanal "La Colmena"</h1>
+      <p class="lead subtitulo mb-0">Miel 100 % natural de nuestras abejas a tu mesa</p>
+    </header>
+
+    <!-- Tarjetas de presentación -->
+    <main class="container flex-grow-1 pb-4">
+      <div class="row g-4 justify-content-center mb-5">
+
+        <div class="col-md-4">
+          <div class="card card-precio h-100 text-center p-3">
+            <div class="card-body">
+              <span class="badge badge-tipo mb-3">Más vendido</span>
+              <h3 class="card-title fw-bold">Miel Multifloral</h3>
+              <p class="card-text text-muted">Equilibrada y aromática, ideal para el desayuno.</p>
+              <p class="precio display-6">$8.00 <small class="fs-6 text-muted">/ 500 g</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card card-precio h-100 text-center p-3">
+            <div class="card-body">
+              <span class="badge badge-tipo mb-3">Edición limitada</span>
+              <h3 class="card-title fw-bold">Miel de Azahar</h3>
+              <p class="card-text text-muted">Suave y floral, cosecha de primavera.</p>
+              <p class="precio display-6">$12.00 <small class="fs-6 text-muted">/ 500 g</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card card-precio h-100 text-center p-3">
+            <div class="card-body">
+              <span class="badge badge-tipo mb-3">Premium</span>
+              <h3 class="card-title fw-bold">Miel de Romero</h3>
+              <p class="card-text text-muted">Intensa y resinosa, de monte mediterráneo.</p>
+              <p class="precio display-6">$15.00 <small class="fs-6 text-muted">/ 500 g</small></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tabla de precios completa -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="tabla-precios">
+            <table class="table table-hover align-middle mb-0">
+              <thead>
+                <tr>
+                  <th><i class="bi bi-basket"></i> Producto</th>
+                  <th><i class="bi bi-box-seam"></i> Presentación</th>
+                  <th class="text-end"><i class="bi bi-tag"></i> Precio</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr><td>Miel Multifloral</td><td>Frasco 250 g</td><td class="text-end fw-semibold">$4.50</td></tr>
+                <tr><td>Miel Multifloral</td><td>Frasco 500 g</td><td class="text-end fw-semibold">$8.00</td></tr>
+                <tr><td>Miel Multifloral</td><td>Frasco 1 kg</td><td class="text-end fw-semibold">$15.00</td></tr>
+                <tr><td>Miel de Azahar</td><td>Frasco 500 g</td><td class="text-end fw-semibold">$12.00</td></tr>
+                <tr><td>Miel de Romero</td><td>Frasco 500 g</td><td class="text-end fw-semibold">$15.00</td></tr>
+                <tr><td>Panal en trozo</td><td>Corte 200 g</td><td class="text-end fw-semibold">$9.00</td></tr>
+                <tr><td>Polen de abeja</td><td>Bolsa 150 g</td><td class="text-end fw-semibold">$7.00</td></tr>
+                <tr><td>Propóleo</td><td>Frasco 30 ml</td><td class="text-end fw-semibold">$10.00</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulario de pedidos por WhatsApp -->
+      <div class="row justify-content-center mt-5" id="pedidos">
+        <div class="col-lg-6">
+          <div class="card card-pedido p-4">
+            <h3 class="fw-bold text-center mb-1" style="color:#8a5a00;"><i class="bi bi-whatsapp"></i> Realiza tu pedido</h3>
+            <p class="text-muted text-center">Llena el formulario y te atenderemos por WhatsApp.</p>
+            <form id="formPedido" novalidate>
+              <div class="mb-3">
+                <label for="nombre" class="form-label"><i class="bi bi-person"></i> Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                <div class="invalid-feedback">Escribe tu nombre.</div>
+              </div>
+              <div class="mb-3">
+                <label for="producto" class="form-label"><i class="bi bi-basket"></i> Producto</label>
+                <select class="form-select" id="producto" required>
+                  <option value="" selected disabled>Elige un producto…</option>
+                  <option>Miel Multifloral — Frasco 250 g ($4.50)</option>
+                  <option>Miel Multifloral — Frasco 500 g ($8.00)</option>
+                  <option>Miel Multifloral — Frasco 1 kg ($15.00)</option>
+                  <option>Miel de Azahar — Frasco 500 g ($12.00)</option>
+                  <option>Miel de Romero — Frasco 500 g ($15.00)</option>
+                  <option>Panal en trozo — Corte 200 g ($9.00)</option>
+                  <option>Polen de abeja — Bolsa 150 g ($7.00)</option>
+                  <option>Propóleo — Frasco 30 ml ($10.00)</option>
+                </select>
+                <div class="invalid-feedback">Selecciona un producto.</div>
+              </div>
+              <div class="mb-3">
+                <label for="cantidad" class="form-label"><i class="bi bi-123"></i> Cantidad</label>
+                <input type="number" class="form-control" id="cantidad" min="1" value="1" required>
+                <div class="invalid-feedback">Indica la cantidad (mínimo 1).</div>
+              </div>
+              <div class="mb-3">
+                <label for="nota" class="form-label"><i class="bi bi-chat-left-text"></i> Nota o dirección de entrega <small class="text-muted">(opcional)</small></label>
+                <textarea class="form-control" id="nota" rows="2" placeholder="Ej. Entregar en Calle…, colonia…"></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-whatsapp btn-lg">
+                  <i class="bi bi-whatsapp"></i> Enviar pedido por WhatsApp
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center mt-4 mb-0 footer-miel">
+        <i class="bi bi-truck"></i> Envíos a domicilio en pedidos superiores a $25 &nbsp;·&nbsp;
+        <i class="bi bi-telephone"></i> Pedidos: +52 55 5072 6148
+      </p>
+    </main>
+
+    <footer class="text-center pb-3 footer-miel small">
+      © 2026 Miel Artesanal "La Colmena" — Hecho con Bootstrap
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Pedidos por WhatsApp al +52 55 5072 6148
+    const NUMERO_WHATSAPP = "525550726148";
+
+    document.getElementById("formPedido").addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!this.checkValidity()) {
+        e.stopPropagation();
+        this.classList.add("was-validated");
+        return;
+      }
+      const nombre  = document.getElementById("nombre").value.trim();
+      const producto = document.getElementById("producto").value;
+      const cantidad = document.getElementById("cantidad").value;
+      const nota    = document.getElementById("nota").value.trim();
+
+      let mensaje = "Hola, soy " + nombre + ". Me gustaría pedir:\n"
+        + "• " + cantidad + " x " + producto;
+      if (nota) {
+        mensaje += "\nNota: " + nota;
+      }
+      window.open("https://wa.me/" + NUMERO_WHATSAPP + "?text=" + encodeURIComponent(mensaje), "_blank");
+    });
+  </script>
 </body>
 </html>
