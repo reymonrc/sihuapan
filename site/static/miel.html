@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Miel Artesanal · Lista de Precios</title>
+  <title>Miel SILET</title>
   <!-- Twitter Bootstrap 5 (CDN) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <style>
     body {
       min-height: 100vh;
-      background: url("fondo-miel.png") no-repeat center center fixed;
+      background: url("img/fondo-miel.png") no-repeat center center fixed;
       background-size: cover;
       font-family: "Segoe UI", system-ui, sans-serif;
     }
@@ -89,7 +89,7 @@
 
     <!-- Encabezado -->
     <header class="text-center pt-5 pb-3">
-      <h1 class="display-4 fw-bold titulo"><i class="bi bi-hexagon-fill"></i> Miel Artesanal "La Colmena"</h1>
+      <h1 class="display-4 fw-bold titulo"><i class="bi bi-hexagon-fill"></i> Miel Artesanal "SILET"</h1>
       <p class="lead subtitulo mb-0">Miel 100 % natural de nuestras abejas a tu mesa</p>
     </header>
 
@@ -101,9 +101,9 @@
           <div class="card card-precio h-100 text-center p-3">
             <div class="card-body">
               <span class="badge badge-tipo mb-3">Más vendido</span>
-              <h3 class="card-title fw-bold">Miel Multifloral</h3>
-              <p class="card-text text-muted">Equilibrada y aromática, ideal para el desayuno.</p>
-              <p class="precio display-6">$8.00 <small class="fs-6 text-muted">/ 500 g</small></p>
+              <h3 class="card-title fw-bold">Envase desechable</h3>
+              <p class="card-text text-muted">Lo usual.</p>
+              <p class="precio display-6">$150.00 <small class="fs-6 text-muted">/ 1200 g</small></p>
             </div>
           </div>
         </div>
@@ -111,10 +111,10 @@
         <div class="col-md-4">
           <div class="card card-precio h-100 text-center p-3">
             <div class="card-body">
-              <span class="badge badge-tipo mb-3">Edición limitada</span>
-              <h3 class="card-title fw-bold">Miel de Azahar</h3>
-              <p class="card-text text-muted">Suave y floral, cosecha de primavera.</p>
-              <p class="precio display-6">$12.00 <small class="fs-6 text-muted">/ 500 g</small></p>
+              <span class="badge badge-tipo mb-3">Versión ecológica</span>
+              <h3 class="card-title fw-bold">Envase de vidrio</h3>
+              <p class="card-text text-muted">Evita contaminar el ambiente con plásticos.</p>
+              <p class="precio display-6">$170.00 <small class="fs-6 text-muted">/ 1200 g</small></p>
             </div>
           </div>
         </div>
@@ -122,42 +122,16 @@
         <div class="col-md-4">
           <div class="card card-precio h-100 text-center p-3">
             <div class="card-body">
-              <span class="badge badge-tipo mb-3">Premium</span>
-              <h3 class="card-title fw-bold">Miel de Romero</h3>
-              <p class="card-text text-muted">Intensa y resinosa, de monte mediterráneo.</p>
-              <p class="precio display-6">$15.00 <small class="fs-6 text-muted">/ 500 g</small></p>
+              <span class="badge badge-tipo mb-3">Promoción</span>
+              <h3 class="card-title fw-bold">Relleno envase de vidrio</h3>
+              <p class="card-text text-muted">Intercambiando tu envase de vidrio anterior.</p>
+              <p class="precio display-6">$140.00 <small class="fs-6 text-muted">/ 1200 g</small></p>
             </div>
           </div>
         </div>
 
       </div>
 
-      <!-- Tabla de precios completa -->
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="tabla-precios">
-            <table class="table table-hover align-middle mb-0">
-              <thead>
-                <tr>
-                  <th><i class="bi bi-basket"></i> Producto</th>
-                  <th><i class="bi bi-box-seam"></i> Presentación</th>
-                  <th class="text-end"><i class="bi bi-tag"></i> Precio</th>
-                </tr>
-              </thead>
-              <tbody class="table-group-divider">
-                <tr><td>Miel Multifloral</td><td>Frasco 250 g</td><td class="text-end fw-semibold">$4.50</td></tr>
-                <tr><td>Miel Multifloral</td><td>Frasco 500 g</td><td class="text-end fw-semibold">$8.00</td></tr>
-                <tr><td>Miel Multifloral</td><td>Frasco 1 kg</td><td class="text-end fw-semibold">$15.00</td></tr>
-                <tr><td>Miel de Azahar</td><td>Frasco 500 g</td><td class="text-end fw-semibold">$12.00</td></tr>
-                <tr><td>Miel de Romero</td><td>Frasco 500 g</td><td class="text-end fw-semibold">$15.00</td></tr>
-                <tr><td>Panal en trozo</td><td>Corte 200 g</td><td class="text-end fw-semibold">$9.00</td></tr>
-                <tr><td>Polen de abeja</td><td>Bolsa 150 g</td><td class="text-end fw-semibold">$7.00</td></tr>
-                <tr><td>Propóleo</td><td>Frasco 30 ml</td><td class="text-end fw-semibold">$10.00</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
 
       <!-- Formulario de pedidos por WhatsApp -->
       <div class="row justify-content-center mt-5" id="pedidos">
@@ -175,14 +149,10 @@
                 <label for="producto" class="form-label"><i class="bi bi-basket"></i> Producto</label>
                 <select class="form-select" id="producto" required>
                   <option value="" selected disabled>Elige un producto…</option>
-                  <option>Miel Multifloral — Frasco 250 g ($4.50)</option>
-                  <option>Miel Multifloral — Frasco 500 g ($8.00)</option>
-                  <option>Miel Multifloral — Frasco 1 kg ($15.00)</option>
-                  <option>Miel de Azahar — Frasco 500 g ($12.00)</option>
-                  <option>Miel de Romero — Frasco 500 g ($15.00)</option>
-                  <option>Panal en trozo — Corte 200 g ($9.00)</option>
-                  <option>Polen de abeja — Bolsa 150 g ($7.00)</option>
-                  <option>Propóleo — Frasco 30 ml ($10.00)</option>
+                  <option>Frasco de vidrio 1200 g ($170)</option>
+                  <option>Desechble 1200 g ($150)</option>
+                  <option>Relleno 1200 g ($140)</option>
+                  <option>Panal en trozo — Corte 200 g ($40)</option>
                 </select>
                 <div class="invalid-feedback">Selecciona un producto.</div>
               </div>
@@ -190,10 +160,6 @@
                 <label for="cantidad" class="form-label"><i class="bi bi-123"></i> Cantidad</label>
                 <input type="number" class="form-control" id="cantidad" min="1" value="1" required>
                 <div class="invalid-feedback">Indica la cantidad (mínimo 1).</div>
-              </div>
-              <div class="mb-3">
-                <label for="nota" class="form-label"><i class="bi bi-chat-left-text"></i> Nota o dirección de entrega <small class="text-muted">(opcional)</small></label>
-                <textarea class="form-control" id="nota" rows="2" placeholder="Ej. Entregar en Calle…, colonia…"></textarea>
               </div>
               <div class="d-grid">
                 <button type="submit" class="btn btn-whatsapp btn-lg">
@@ -206,13 +172,12 @@
       </div>
 
       <p class="text-center mt-4 mb-0 footer-miel">
-        <i class="bi bi-truck"></i> Envíos a domicilio en pedidos superiores a $25 &nbsp;·&nbsp;
         <i class="bi bi-telephone"></i> Pedidos: +52 55 5072 6148
       </p>
     </main>
 
     <footer class="text-center pb-3 footer-miel small">
-      © 2026 Miel Artesanal "La Colmena" — Hecho con Bootstrap
+      © 2026 Miel Artesanal "SILET"
     </footer>
   </div>
 
