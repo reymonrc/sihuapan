@@ -196,12 +196,10 @@
       const nombre  = document.getElementById("nombre").value.trim();
       const producto = document.getElementById("producto").value;
       const cantidad = document.getElementById("cantidad").value;
-      const nota    = document.getElementById("nota").value.trim();
+      // const nota    = document.getElementById("nota").value.trim();
 
       let mensaje = "Hola, soy " + nombre + ". Me gustaría pedir:\n"+ "• " + cantidad + " x " + producto;
-      if (nota) {
-        mensaje += "\nNota: " + nota;
-      }
+      // if (nota) { mensaje += "\nNota: " + nota; }
       window.open("https://wa.me/" + NUMERO_WHATSAPP + "?text=" + encodeURIComponent(mensaje), "_blank");
     });
   </script>
